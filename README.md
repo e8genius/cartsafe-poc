@@ -2,7 +2,7 @@
 
 This repository encompasses a complete product lifecycle—from initial market research and opportunity identification to the technical Proof-of-Concept (POC) of a chosen solution.
 
-The project is structured into two main phases:
+The project is structured into three main phases/components:
 
 ## 1. Market Research & Problem Analysis (`/analyzer`)
 This phase involved analyzing a large dataset of WhatsApp chats from Israeli e-commerce merchants to identify their most pressing pain points. 
@@ -15,20 +15,24 @@ Key documents in this phase:
 
 *(Note: Outdated or irrelevant analysis files have been moved to `analyzer/archive` for historical reference).*
 
-## 2. Product Development: CartSafe (`/poc`)
+## 2. Product Development: CartSafe (`/cartsafe poc product`)
 Based on the RICE matrix, the decision was made to build **CartSafe**, an app that protects Shopify Basic/Standard merchants from margin leakage caused by "Double Discounting" (stacking promotional coupons with gift cards).
 
-The `/poc` directory contains the actual product documentation and the foundation for the codebase.
+This directory contains the actual product documentation and the foundation for the codebase.
 
 Key documents in this phase:
-- `poc/README.md`: The main entry point for developers working on the CartSafe application.
-- `poc/docs/PRD.md`: The Product Requirements Document outlining the scope of the POC.
-- `poc/docs/PR_FAQ.md`: Amazon-style PR/FAQ detailing the product positioning and user experience.
-- `poc/docs/ARCHITECTURE.md`: The technical architecture and system design.
-- `poc/docs/API_FLOWS.md`, `DATA_MODEL.md`, `SECURITY.md`, etc.: Further technical documentation.
+- `cartsafe poc product/README.md`: The main entry point for developers working on the CartSafe application.
+- `cartsafe poc product/docs/PRD.md`: The Product Requirements Document outlining the scope of the POC.
+- `cartsafe poc product/docs/PR_FAQ.md`: Amazon-style PR/FAQ detailing the product positioning and user experience.
+- `cartsafe poc product/docs/ARCHITECTURE.md`: The technical architecture and system design.
+- `cartsafe poc product/docs/API_FLOWS.md`, `DATA_MODEL.md`, `SECURITY.md`, etc.: Further technical documentation.
+
+## 3. Product Simulator (`/cartsafe poc simulator`)
+A separate Next.js application simulating the e-commerce storefront checkout environment to test and demonstrate the functionality of CartSafe without needing a live, full Shopify store setup.
 
 ---
 
 ### How to Navigate
-If you are interested in the **"Why"** and **"What to build next"**, explore the `analyzer/` folder.
-If you are interested in the **"How"** and want to see the product details, explore the `poc/` folder.
+- If you are interested in the **"Why"** and **"What to build next"**, explore the `analyzer/` folder.
+- If you are interested in the **"How"** and want to see the core product details and documentation, explore the `cartsafe poc product/` folder.
+- If you want to run or test the checkout simulation environment, explore the `cartsafe poc simulator/` folder.
