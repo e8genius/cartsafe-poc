@@ -1,0 +1,2040 @@
+{
+  "processed_chunks": {
+    "82": [
+      {
+        "category": "Data Integration",
+        "problem_statement": "Difficulty in automating data transfer from a sales system (Cash Cow) to Google Sheets, requiring either Zapier expertise or a custom application.",
+        "severity_signal": "Medium",
+        "original_quote": "אפליקציה לא מסובכת שמעבירה נתונים ממכירות מקאש קאו לגוגל שיט"
+      },
+      {
+        "category": "Customer Loyalty",
+        "problem_statement": "Uncertainty regarding the requirement to provide advance notice to customers when discontinuing a free loyalty program.",
+        "severity_signal": "Low",
+        "original_quote": "אם אני רוצה להסיר את המועדון יש לי חובת הודעה מוקדמת ללקוחות?"
+      },
+      {
+        "category": "Marketing ROI",
+        "problem_statement": "The current customer loyalty program is expensive (400+ monthly per POS/site) and does not demonstrate a clear return on investment, as it primarily involves giving discounts without significantly increasing purchase baskets or customer retention.",
+        "severity_signal": "High",
+        "original_quote": "אני כרגע משלמת 400+ חודשי לכל קופה/אתר... לא רואה שזה מצדיק את העלות החודשית אני רק נותנת הטבות כל הזמן ולא בהכרח רואה שזה מגדיל סלי קניות או גורם לחזור לקנות"
+      },
+      {
+        "category": "Communication Tools",
+        "problem_statement": "International SMS/WhatsApp communication services are significantly more expensive than local alternatives, leading to higher operational costs.",
+        "severity_signal": "Medium",
+        "original_quote": "למה רק חברות מחו\"ל? זה משמעותית יקר יותר"
+      },
+      {
+        "category": "Information Reliability",
+        "problem_statement": "Links provided for recommended service providers are broken or non-functional.",
+        "severity_signal": "Low",
+        "original_quote": "חלק מהלינקים לא עובדים..."
+      },
+      {
+        "category": "Digital Marketing",
+        "problem_statement": "Facebook Pixel and conversion tracking are being blocked for users due to a recent Facebook update, impacting marketing effectiveness and data collection.",
+        "severity_signal": "High",
+        "original_quote": "לעוד מישהו נחסם הפיקסל והמרות בעקבות העדכון החדש בפייסבוק?"
+      },
+      {
+        "category": "Product Design",
+        "problem_statement": "Difficulty finding a suitable website, AI tool, or software to generate realistic mockups or visualizations for clothing items (e.g., coats) on models for fashion products.",
+        "severity_signal": "Medium",
+        "original_quote": "אני מחפשת אתר/ Ai / תוכנה בתשלום שיכולה לייצר הדמיות עבור מעילים / פרטי לבוש."
+      }
+    ],
+    "206": [
+      {
+        "category": "Payments",
+        "problem_statement": "Difficulty connecting Shopify Payments to a bank account for an Israeli company, specifically regarding opening an international bank account.",
+        "severity_signal": "Medium",
+        "original_quote": "השאלה לאיזה חשבון בנק מחברים את השופיפיי פיימנטס האם חברה ישראלית יכולה לפתוח חשבון בנק בינלאומי ?"
+      },
+      {
+        "category": "Legal & Financial",
+        "problem_statement": "Shopify Payments requires the business entity (company or individual) to be local to the country from which it connects, not just a local bank account.",
+        "severity_signal": "Medium",
+        "original_quote": "מבחינת שופיפיי הם לא בודקים רק חשבון בנק מקומי במדינה שממנה את מתחברת אלא גם האם היישות (החברה או הבן אדם) היא מקומית"
+      },
+      {
+        "category": "Legal & Financial",
+        "problem_statement": "Difficulty with Shopify Payments due to tax entity requirements, not just bank account.",
+        "severity_signal": "Medium",
+        "original_quote": "זה לא רק עניין של חשבון בנק, זה עניין של ישות מס."
+      },
+      {
+        "category": "Taxation",
+        "problem_statement": "High tax burden makes operating a British company (for Shopify Payments) not worthwhile.",
+        "severity_signal": "High",
+        "original_quote": "כי הרואה חשבון אומר שזה לא שווה את המיסים"
+      },
+      {
+        "category": "Marketing",
+        "problem_statement": "Lack of up-to-date knowledge regarding optimal banner sizes and quantities for website promotions on WordPress to ensure good performance in campaigns.",
+        "severity_signal": "Low",
+        "original_quote": "מי יכול לכתוב לי האם יש איזה חידוש מהשנתיים האחרונות (הפעם האחרונה שעשיתי שינוי 🤦‍♀️) מבחינת הגדלים או הכמות בכדי שיעברו טוב בקידומים?"
+      },
+      {
+        "category": "Shopify Features",
+        "problem_statement": "Difficulty implementing a 'free gift with purchase' promotion based on a minimum spend threshold on Shopify.",
+        "severity_signal": "Medium",
+        "original_quote": "אם אני רוצה שמעל קניה של 2000 שח יקבלו נר במתנה- איך אני עושה את זה? בשופיפיי?"
+      },
+      {
+        "category": "Shopify Features",
+        "problem_statement": "Shopify's basic discount features do not support adding a free product to the cart.",
+        "severity_signal": "Medium",
+        "original_quote": "ההנחות הבסיסיות של שופיפיי לא מאפשרות להוסיף מוצר לעגלה בחינם."
+      },
+      {
+        "category": "Payments",
+        "problem_statement": "Customers experience payment processing failures with PayPlus (spinning circle, then error/kick out) after entering payment details.",
+        "severity_signal": "High",
+        "original_quote": "לקוחות מסיימים הזמנה, מכניסים פרטי אשראי /גוגל פיי וכו' והעיגול מסתובב ומסתובב עד שזורק אותם החוצה ... 🙄"
+      },
+      {
+        "category": "Payments",
+        "problem_statement": "Experienced similar payment processing issues with PayPal for a specific customer.",
+        "severity_signal": "Medium",
+        "original_quote": "ואלה זה גם קרה לי עם פייפאל דווקא ורק עם מישהי אחת"
+      },
+      {
+        "category": "Website Testing",
+        "problem_statement": "Difficulty finding test credit card details for payment testing on a website using Cardcom.",
+        "severity_signal": "Low",
+        "original_quote": "אני רוצה לעשות בדיקות תשלום באתר, עובד עם קארדכום, יש איזה פרטי אשראי שניתן להזין לעסקאות טסט?"
+      },
+      {
+        "category": "Logistics",
+        "problem_statement": "Difficulty adapting to recent significant changes in US customs (15% tax) affecting shipping costs, product pricing, and shipping company relations for small/private shipments.",
+        "severity_signal": "High",
+        "original_quote": "אני רוצה לדעת איך אתם נערכים לשינויים האחרונים במכס האמריקאי ( 15%), שהופכים למשמעותיים גם עבור משלוחים פרטיים ומשלוחים קטנים (עד $800)."
+      },
+      {
+        "category": "Payments",
+        "problem_statement": "Cardcom has an issue with Apple Pay, and their development cycle for fixes/updates is very slow (takes months).",
+        "severity_signal": "High",
+        "original_quote": "גם אני עם קארדקום אבל יש להם בעיה עם Apple Pay וזה בעייתי כל דבר הם מעבירים לפיתוח של כמה חודשים."
+      },
+      {
+        "category": "Customer Service",
+        "problem_statement": "Unable to get a response from Paner WhatsApp automation service support for several days, needing to reach management.",
+        "severity_signal": "High",
+        "original_quote": "איין תגובה מהשרות שלהם כמה ימים ??🙏"
+      }
+    ],
+    "52": [
+      {
+        "category": "Fraud",
+        "problem_statement": "Customers are engaging in fraudulent activities, such as changing delivery addresses and then claiming non-receipt to demand refunds, forcing businesses to prove delivery.",
+        "severity_signal": "High",
+        "original_quote": "היא מזמינה מוצרים, משנה כתובת מול השליח ולאחר מכן טוענת שלא קיבלה את ההזמנה ודורשת החזר כספי."
+      },
+      {
+        "category": "Fraud",
+        "problem_statement": "Merchants are experiencing attempted fraud where customers claim non-receipt of products, often using foreign credit cards and being unresponsive, requiring extensive proof of delivery.",
+        "severity_signal": "High",
+        "original_quote": "הוא ביקש מחברת האשראי זיכוי מלא כי טען שלא קיבל את המוצר."
+      },
+      {
+        "category": "Payments",
+        "problem_statement": "Credit card companies tend to automatically refund customers in 'item not received' disputes, often without adequately considering the merchant's evidence, putting businesses at a disadvantage.",
+        "severity_signal": "Medium",
+        "original_quote": "חברת האשראי מזכה מיד אם לקוח טוען שלא קיבל ולא איכפת לה מה יגיד העסק."
+      },
+      {
+        "category": "Customer Service",
+        "problem_statement": "Resolving fraudulent claims is a long and difficult process due to persistent customers who refuse to concede.",
+        "severity_signal": "Medium",
+        "original_quote": "אצלי זה היה תהליך ארוך. הלקוח לא הסכים לוותר"
+      },
+      {
+        "category": "Fraud",
+        "problem_statement": "There is an organized group of fraudsters ordering products to specific post office branches using stolen credit cards.",
+        "severity_signal": "High",
+        "original_quote": "יש חבורת נוכלים בשכם שמזמינה לשם מוצרים בכרטיסי אשראי גנובים."
+      },
+      {
+        "category": "Website UX",
+        "problem_statement": "Website forms on mobile devices automatically zoom in on input fields and do not zoom out after input, negatively impacting the user experience and requiring manual zoom-out.",
+        "severity_signal": "Medium",
+        "original_quote": "זה קצת מוריד מהחוויה כי אחרי שרושמים צריך לעשות זום אאוט כדי לראות הכל"
+      },
+      {
+        "category": "Website UX",
+        "problem_statement": "The zoom-in issue on mobile forms persists even after filling out the field; the view does not return to normal, causing frustration.",
+        "severity_signal": "Medium",
+        "original_quote": "כשמסיימים למלא זה נשאר בזום לא חוזר"
+      },
+      {
+        "category": "Logistics",
+        "problem_statement": "There is a recurring difficulty in finding a reliable shipping company that can handle high-volume or large-item deliveries.",
+        "severity_signal": "High",
+        "original_quote": "מעלים את הנושא לדיון בקבוצה בערך פעם בשבוע..."
+      },
+      {
+        "category": "Payments",
+        "problem_statement": "Merchants lack clear and timely notifications from payment or credit card companies regarding chargebacks or disputed transactions, leading to uncertainty about potential fraud.",
+        "severity_signal": "Medium",
+        "original_quote": "איך אדע שמישהו שקיבל כבר חבילה לא פתאום הכחיש עסקה באשראי או משהו כזה"
+      },
+      {
+        "category": "Logistics",
+        "problem_statement": "Current shipping company is causing significant operational problems, necessitating a search for a stable and reliable long-term solution for large/heavy shipments.",
+        "severity_signal": "High",
+        "original_quote": "כרגע יש לי בלגן לא קטן עם חברה מסוימת, ולכן אני רוצה למצוא פתרון טוב ויציב לטווח הארוך."
+      },
+      {
+        "category": "Website Migration",
+        "problem_statement": "Lack of clear guidance or best practices for migrating financial and marketing tracking (Google Ads, Analytics, Facebook Ads) when moving from an old e-commerce site to a new one.",
+        "severity_signal": "Medium",
+        "original_quote": "מה צריך להעביר לכל מה שקשור לממון מה אתם ממליצים ואיך לעשות גוגל אדס , לפתוח טאג חדש או להישאר עם הישן באנאליטיקס, פייסבוק ממומן וכו׳"
+      },
+      {
+        "category": "Marketing",
+        "problem_statement": "Upcoming Meta (Facebook) restrictions will prevent the measurement of ad events for 'Health and Wellness' categories in Europe (no events) and the USA (no purchase/add to cart events), severely impacting advertising effectiveness and requiring new strategies.",
+        "severity_signal": "High",
+        "original_quote": "החל מינואר לא תוכלו למדוד איבנטים. באירופה אף איבנט לא יספר, ובארהב לא יספרו איבנטים של purchase & add to cart."
+      },
+      {
+        "category": "Integrations",
+        "problem_statement": "Difficulty integrating the Rav Meser email marketing system with Shopify.",
+        "severity_signal": "Low",
+        "original_quote": "מישהו יודע אם אפשר לחבר מערכת דיוור רב מסר לשופיפיי?"
+      },
+      {
+        "category": "Email Marketing Tools",
+        "problem_statement": "The Rav Meser email marketing system is not suitable for e-commerce needs.",
+        "severity_signal": "Medium",
+        "original_quote": "כי זו לא מערכת שמתאימה לאיקומרס"
+      }
+    ],
+    "175": [
+      {
+        "category": "Payments",
+        "problem_statement": "Frequent payment processing failures with HYP are a significant concern, causing frustration.",
+        "severity_signal": "High",
+        "original_quote": "אני תוהה לגבי HYP כי כל כמה זמן שולחים פה שיש להם תקלה בסליקה ואני הייתי משתגע אם היה לי תדירות תקלות כזו...."
+      },
+      {
+        "category": "Customer Service",
+        "problem_statement": "Difficulty getting quick answers or support for issues related to PayPal upgrades.",
+        "severity_signal": "Medium",
+        "original_quote": "קיוויתי לקבל תשובה מהירה יותר"
+      },
+      {
+        "category": "Shopify Management",
+        "problem_statement": "Managing extensive temporary product and variation changes on Shopify is a lot of work, and there's a need for an efficient way to revert these changes later.",
+        "severity_signal": "High",
+        "original_quote": "אני צריכה לעשות הרבה שינויים באתר ( להסיר זמנית מוצרים , לבטל ווריאציות , הפניות של מוצרים שיורדים מהאתר לעמוד הבית .. ) *כיוון שזה המון עבודה*"
+      },
+      {
+        "category": "Shopify Management",
+        "problem_statement": "Preventing broken links (404 errors) for temporarily removed products that still have external links (e.g., from social media posts) is a manual and time-consuming process. Reverting variation changes is also a lot of work.",
+        "severity_signal": "High",
+        "original_quote": "אני עדיין צריכה לעשות הפניה של הלינקים לעמוד הבית כדי שלא יגיעו לדף שגיאה . בהרבה מוצרים אני צריכה להסיר את הווריאציות - וכשאני ארצה להחזיר אותם בתום התקופה זו תהיה המון עבודה"
+      },
+      {
+        "category": "SEO",
+        "problem_statement": "Existing marketing links (e.g., social media posts) for products that are temporarily removed lead to error pages, negatively impacting user experience and potentially SEO.",
+        "severity_signal": "High",
+        "original_quote": "בגלל שאני מפרסמת ברשתות פוסטים עם לינקים שמובילים למוצרים הספציפיים - הלינקים עדיין מפורסמים ואני לא רוצה שיגיעו לעמוד שגיאה - אני מעדיפה שיגיעו לדגם אחר שכן קיים באתר"
+      },
+      {
+        "category": "Shopify Management",
+        "problem_statement": "Managing product redirects and changes for many products is a tedious and manual process.",
+        "severity_signal": "Medium",
+        "original_quote": "אבל זה לא פותר את העבודה הסזיפית...."
+      },
+      {
+        "category": "User Experience",
+        "problem_statement": "Displaying entire categories of unavailable products creates a poor user experience.",
+        "severity_signal": "Medium",
+        "original_quote": "איך הם לא מפריעים אם עמוד שלם של מוצרים - קטגוריה שלמה לא זמינה לרכישה אתה מגיע לדף שכל המוצרים לא זמינים"
+      },
+      {
+        "category": "Inventory Management",
+        "problem_statement": "Inventory management, especially with thousands of variations, is extremely difficult and frustrating.",
+        "severity_signal": "High",
+        "original_quote": "בכל מקרה שתדעי שאנחנו באותה סירה. ניהול מלאים זה השטן 😅 בטח כשיש אלפי ווריאציות"
+      },
+      {
+        "category": "Customer Service",
+        "problem_statement": "PayPlus customer service is frequently unavailable, leading to calls being routed to voicemail/messaging service.",
+        "severity_signal": "High",
+        "original_quote": "מה קורה לאחרונה עם פייפלוס ? כל שיחה כמעט מגיעה לשירות ההודעות 🤔"
+      },
+      {
+        "category": "Customer Service",
+        "problem_statement": "PayPlus customer service is often unavailable, although they do eventually respond.",
+        "severity_signal": "Medium",
+        "original_quote": "נכון, לא זמינים לאחרונה אבל יאמר לזכותם שהם חוזרים"
+      },
+      {
+        "category": "Customer Service",
+        "problem_statement": "The unavailability of PayPlus customer service is frustrating, especially when urgent issues arise, as the entire business accounting system depends on them.",
+        "severity_signal": "High",
+        "original_quote": "חוזרים כן אבל זה מתסכל שצריך לפעמים לטפל במשהו מיידי ואין עם מי לדבר... בכל זאת כל מערכת הנהלת החשבונות של העסק תלויה בהם ומתי יחזרו. מתחיל להיות מבאס וחבל."
+      },
+      {
+        "category": "Payments",
+        "problem_statement": "The payment processor 'Meshulam' does not support American Express.",
+        "severity_signal": "Low",
+        "original_quote": "הכל חוץ מאמריקן"
+      },
+      {
+        "category": "Payments",
+        "problem_statement": "Confusion and lack of clarity regarding the full capabilities and integrations of payment/accounting systems like Meshulam (e.g., full accounting system, PayPal integration, manual invoice issuance).",
+        "severity_signal": "Medium",
+        "original_quote": "הם ממש מערכת הנהח שמתחברת לאתר כמו פייפלוס? אצלי יש חיבור גם לפייפאל. וכמובן כל עניין הנפקת חשבוניות, גם ידנית לקמעונאים ועוד."
+      },
+      {
+        "category": "Logistics",
+        "problem_statement": "Managing customer selection of pickup points for Super-Pharm marketplace orders is challenging.",
+        "severity_signal": "Medium",
+        "original_quote": "איך התמודדתם עם משלוחי נקודת איסוף שהלקוח צריך לבחור נקודה ?"
+      },
+      {
+        "category": "Logistics",
+        "problem_statement": "Customers not responding to requests to choose a pickup point leads to issues with delivery and customer dissatisfaction.",
+        "severity_signal": "High",
+        "original_quote": "אין לכם בעיות עם לקוחות שלא רוצים ללכת לנקודה שבחרתם? אנחנו שולחים להם הודעה לבחרית נקודה לפני משלוח אבל לא כולם עונים ואז יש בעיות"
+      },
+      {
+        "category": "Payments",
+        "problem_statement": "Recent payment processing failures with PayPlus resulted in lost transactions, and users are seeking solutions or compensation.",
+        "severity_signal": "High",
+        "original_quote": "האם למישהו לא עברו עסקאות בגלל התקלה בפייפלוס בשעה האחרונה? האם אפשר לעשות עם זה משהו? לדרוש פיצוי?"
+      },
+      {
+        "category": "Payments",
+        "problem_statement": "Recurring issues with PayPlus where transactions don't properly sync with the website, even if the payment is received.",
+        "severity_signal": "High",
+        "original_quote": "היה גם לפני כמה ימים, היו לנו עסקאות שלא עברו כמו שצריך לאתר"
+      },
+      {
+        "category": "Payments",
+        "problem_statement": "Confusion and concern over whether payments actually failed or just didn't sync, with recent instances of complete payment failure.",
+        "severity_signal": "High",
+        "original_quote": "עכשיו שום תשלום לא עבר"
+      },
+      {
+        "category": "Payments",
+        "problem_statement": "PayPlus payment system experienced a complete outage for about half an hour.",
+        "severity_signal": "High",
+        "original_quote": "נפל לאיזה חצי שעה באיזור 18:30"
+      }
+    ],
+    "83": [
+      {
+        "category": "Product Photography/Visuals",
+        "problem_statement": "Difficulty finding a suitable AI/software tool for generating clothing mockups on models.",
+        "severity_signal": "Medium",
+        "original_quote": "אני מחפשת אתר/ Ai / תוכנה בתשלום שיכולה לייצר הדמיות עבור מעילים / פרטי לבוש... האם יש משהו בסגנון עבור אופנה?"
+      },
+      {
+        "category": "Marketing",
+        "problem_statement": "Need for recommendations for a reliable influencer marketing agency.",
+        "severity_signal": "Low",
+        "original_quote": "אשמח לסוכנות משפיענים מומלץ"
+      },
+      {
+        "category": "Shopify Features",
+        "problem_statement": "Shopify's default gift card system lacks unique identifiers, enabling double usage, requiring a third-party app solution.",
+        "severity_signal": "High",
+        "original_quote": "תוסף גיפט קארד לשופיפיי עם מונה או מספר יחודי לכל כרטיס ? ברירת המחדל היא ללא וזה מאפשר שימוש כפול"
+      },
+      {
+        "category": "Legal Compliance",
+        "problem_statement": "Uncertainty and conflict regarding legal obligations for refunding shipping costs to customers during transaction cancellations, especially after shipment.",
+        "severity_signal": "High",
+        "original_quote": "לקוחה מבצעת ביטול עסקה... לגביי משלוח - למיטב ידעתי וגם כך מצוין אצלנו בתקנון - אני לא מחוייבת לבצע החזר... לקוחה שלחה לנו צילום מסך על פיו אנחנו מחוייבים.. מכירים את זה?"
+      },
+      {
+        "category": "Legal Compliance",
+        "problem_statement": "The existing law regarding refunding shipping costs for cancelled orders is considered unfair and problematic for businesses.",
+        "severity_signal": "High",
+        "original_quote": "כן, הלקוחה צודקת לפי החוק. אכן חוק עקום, אבל זה החוק."
+      },
+      {
+        "category": "Business Risk",
+        "problem_statement": "The current legal framework for transaction cancellations poses a significant financial risk, potentially allowing malicious exploitation that could ruin a business.",
+        "severity_signal": "High",
+        "original_quote": "תיאורטית בתרגיל מחשבתי קרימינלי ניתן לרושש עסק בחסות החוק על ידי ביטולי עסקה.."
+      },
+      {
+        "category": "Marketing",
+        "problem_statement": "Need for recommendations for a reliable affiliate marketing plugin.",
+        "severity_signal": "Low",
+        "original_quote": "יש תוסף מומלץ של שיווק שותפים?"
+      },
+      {
+        "category": "Shopify Features",
+        "problem_statement": "Difficulty tracking customers who opt for in-store pickup orders within Shopify.",
+        "severity_signal": "Medium",
+        "original_quote": "מישהו שעובד עם שופיפיי ומכיר פתרון למעקב אחרי לקוחות שמזמינים איסוף עצמי בחנות הפיזית?"
+      },
+      {
+        "category": "WordPress Features",
+        "problem_statement": "Need for a WordPress plugin that allows customers to select a free gift from a list during a purchase.",
+        "severity_signal": "Medium",
+        "original_quote": "יש תוסף לוורדפרס שלקוח קונה מוצר אני מעוניין לתת לו מתנה ממגוון המוצרים שיש לי באתר , אבל שתהיה לו אפשרות בחירה איזה מהמתנות הוא רוצה לקבל ? כמו dropdown list ?"
+      },
+      {
+        "category": "Marketing Tools",
+        "problem_statement": "Need for recommendations for a multi-channel social media management software with AI capabilities.",
+        "severity_signal": "Low",
+        "original_quote": "איזה תוכנה מומלצת יש לניהול סושייל רב ערוצי כולל AI פיסבוק אינסטגרם לינקדין טיק טוק?"
+      },
+      {
+        "category": "Google Merchant Center",
+        "problem_statement": "Products frequently fail to display on Google Merchant Center due to its complex and strict requirements for product data, including titles, tags, spelling, image variations, and pricing.",
+        "severity_signal": "High",
+        "original_quote": "הסיבה לכך שמוצרים לא מוצגים במרצ'נט היא שיש לגוגל מרצ'נט דרישות כמו אורך כותרות במשקל מתאים , הוספת תגיות, בדיקת איות שגיאות כתיב לתיאור המוצר ותיקונו, תמונות של וריאציות מוצר לא מעודכנות... זו תקלה ידועה"
+      },
+      {
+        "category": "WordPress Features",
+        "problem_statement": "Need for a WordPress plugin that allows customers to personalize product designs with custom branding.",
+        "severity_signal": "Low",
+        "original_quote": "אשמח להמלצה לפלאג לעיצוב אישי של מוצרים במיתוג אישי. בפלטפורמת וורדפרס"
+      },
+      {
+        "category": "Payments",
+        "problem_statement": "PayMe (Bimi) has limited compatibility with payment providers, restricting merchant choices.",
+        "severity_signal": "Medium",
+        "original_quote": "ביימי, הם לא עובדים עם כל ספק תשלום"
+      }
+    ],
+    "51": [
+      {
+        "category": "Payments",
+        "problem_statement": "User is unable to see the charge for a package, which is causing confusion.",
+        "severity_signal": "Medium",
+        "original_quote": "לא ראיתי חיוב של החבילה ממש מוזר"
+      },
+      {
+        "category": "Marketing",
+        "problem_statement": "Needs a serious campaigner for social media and traditional media marketing to sell a large quantity of products directly via e-commerce.",
+        "severity_signal": "Medium",
+        "original_quote": "מחפש קמפיינר רציני לשיווק ברשתות החברתיות ואולי גם בתקשורת של פעם (טלוויזיה ורדיו). אשמח להמלצות מניסיון."
+      },
+      {
+        "category": "Event Management",
+        "problem_statement": "Lack of timely information and communication regarding an upcoming fair.",
+        "severity_signal": "Medium",
+        "original_quote": "מתי היריד??? למה את לא אומרת לי???"
+      },
+      {
+        "category": "Payments",
+        "problem_statement": "A specific scenario or action is preventing payment processing.",
+        "severity_signal": "Medium",
+        "original_quote": "זה לא יאפשר סליקה"
+      },
+      {
+        "category": "E-commerce Platform Features",
+        "problem_statement": "Needs to implement a 'send as a gift' feature on a new WooCommerce site and is looking for examples.",
+        "severity_signal": "Low",
+        "original_quote": "אשמח לדוגמאות לאתרים שבנויים בווקומרס שבהם יש אפשרות לשליחת המוצר כמתנה למישהו אחר"
+      },
+      {
+        "category": "Website Technical",
+        "problem_statement": "The tracking pixel on a website is not configured correctly, impacting analytics.",
+        "severity_signal": "Medium",
+        "original_quote": "תסדרו את הפיקסל שלכם... 🙂"
+      },
+      {
+        "category": "WordPress Plugin",
+        "problem_statement": "Difficulty configuring a WordPress plugin ('bedges') to display text at the desired position (bottom instead of top).",
+        "severity_signal": "High",
+        "original_quote": "אני מנסה להגדיר שהכיתוב יהיה למטה וזה פשוט ממקם את הכתב למעלה עזרה מישהו????"
+      },
+      {
+        "category": "Content Creation",
+        "problem_statement": "Difficulty finding engaging templates for business Reels and videos.",
+        "severity_signal": "Medium",
+        "original_quote": "איפה אתם מוצאים טמפלייטים מעניינים לרילס לסרטונים לעסק?"
+      },
+      {
+        "category": "Content Creation Tools",
+        "problem_statement": "Needs a free application that supports writing Hebrew text for video captions.",
+        "severity_signal": "Medium",
+        "original_quote": "האם יש אפליקציה חינמית שמאפשרת לכתוב טקסט בעברית כמו captions ?"
+      },
+      {
+        "category": "Content Creation Tools",
+        "problem_statement": "CapCut application templates are geo-restricted and not available when connected from Israel, requiring a VPN connection through the US.",
+        "severity_signal": "Medium",
+        "original_quote": "הפרו טיפ שלי הוא להיכנס לאפליקציה כשמחוברים לVPN דרך ארצות הברית, כי בחיבור רגיל מהארץ אין טמפלייטים בכלל"
+      },
+      {
+        "category": "Product Photography",
+        "problem_statement": "Needs recommendations for a reliable product photographer in the Tel Aviv area.",
+        "severity_signal": "Low",
+        "original_quote": "צלם מוצר מומלץ באיזור תל אביב?"
+      },
+      {
+        "category": "Website Optimization",
+        "problem_statement": "Needs an expert for Conversion Rate Optimization (CRO) for an international WordPress site and assistance with Looker Studio.",
+        "severity_signal": "Low",
+        "original_quote": "אני מחפש מומחה/ית לשיפור יחס המרה (CRO) יש לי אתר בוורדפרס שפונה בעיקר לקהל בחו״ל. וגם looker studio"
+      },
+      {
+        "category": "Google Business",
+        "problem_statement": "The Google business validation process is difficult, requiring a high bar of proof for location, leading users to seek workarounds.",
+        "severity_signal": "Medium",
+        "original_quote": "מנסיון עבר עם ולידציה לעסקים בגוגל אם עושים את זה דרך חשבון שבעבר כבר אישרו לו מיקומים זה הולך יותר בקלות והרף הנדרש להוכיח את המיקום נמוך יותר"
+      },
+      {
+        "category": "Google Business",
+        "problem_statement": "The Google business validation process feels inconsistent and subjective, relying on personal impression rather than a precise protocol.",
+        "severity_signal": "High",
+        "original_quote": "מרגיש שזה קם ונופל על התרשמות אישית ולא הולך לפי פרוטוקול מדויק."
+      },
+      {
+        "category": "Domain Management",
+        "problem_statement": "Requires assistance with domain verification.",
+        "severity_signal": "Low",
+        "original_quote": "מי יכול לעשות לי אימות דומיין?"
+      },
+      {
+        "category": "E-commerce Development",
+        "problem_statement": "Needs to find a Shopify developer for a client project.",
+        "severity_signal": "Low",
+        "original_quote": "מחפשת מפתח Shopify שיכול לעשות איתי פרויקט ללקוח. אשמח להמלצות."
+      },
+      {
+        "category": "Logistics",
+        "problem_statement": "Needs to find a shipping company capable of handling high-volume shipments.",
+        "severity_signal": "Low",
+        "original_quote": "מחפש חברת משלוחים למשלוחים בנפח גבוה"
+      },
+      {
+        "category": "Google Shopping",
+        "problem_statement": "Products are not appearing in Google Shopping's free listings despite successful product upload and store connection.",
+        "severity_signal": "High",
+        "original_quote": "העלתי את המוצרים חיברתי את החנות וזה עדיין לא מציק את המוצרים את החנות בשופינג בכרטיסיות החינמיות"
+      },
+      {
+        "category": "E-commerce Operations",
+        "problem_statement": "Manual processes for managing Shopify store tasks (e.g., creating discounts, products, collections) are inefficient and require specific knowledge.",
+        "severity_signal": "Medium",
+        "original_quote": "לפטר את העובדים שמתחזקים את החנות שלכם או לפחות לקצר להם כללללל כך הרבה תהליכי עבודה? שאם הם לא יודעים איך ליצור הנחה / מוצר חדש / קולקציה חדשה הם יכולים עכשיו פשוט לשאול את העוזר האישי והוא יפנה אותם למקום הנכון או ייצור את זה עבורם באמצעות AI?"
+      },
+      {
+        "category": "Logistics",
+        "problem_statement": "Past experiences with various shipping companies have been disappointing due to poor service.",
+        "severity_signal": "Medium",
+        "original_quote": "אחרי כל החברות שיש בשוק שהיו אכזבה"
+      },
+      {
+        "category": "Business Development",
+        "problem_statement": "Needs assistance in reaching out to other businesses for collaborations and establishing a stable business foundation for an e-commerce store.",
+        "severity_signal": "Low",
+        "original_quote": "הייתי רוצה מאוד להגיע לעסקים בשביל שיתופי פעולה ולייצר עוגן עסקי לחנות האם יש כאן בעלי ניסיון/קשרים שיכולים לעזור לי למנף את זה מול המגזר העסקי ?"
+      }
+    ],
+    "207": [
+      {
+        "category": "Payments",
+        "problem_statement": "Cardcom has persistent issues with Apple Pay, and their development cycle for resolving problems or implementing new features is excessively long (several months).",
+        "severity_signal": "High",
+        "original_quote": "יש להם בעיה עם Apple Pay וזה בעייתי כל דבר הם מעבירים לפיתוח של כמה חודשים."
+      },
+      {
+        "category": "Customer Service",
+        "problem_statement": "Difficulty reaching management or receiving a response from Paner WhatsApp automation's customer service for several days.",
+        "severity_signal": "High",
+        "original_quote": "איין תגובה מהשרות שלהם כמה ימים"
+      },
+      {
+        "category": "Payments",
+        "problem_statement": "Transzila, another payment gateway, also experiences occasional problems with Apple Pay.",
+        "severity_signal": "Medium",
+        "original_quote": "גם לטרנזילה יש פה ושם בעיות עם אפל פי"
+      },
+      {
+        "category": "Customer Service",
+        "problem_statement": "Cardcom's customer support is cumbersome and difficult to navigate, a problem common to many service providers.",
+        "severity_signal": "Medium",
+        "original_quote": "מסכים שהתמיכה אצלם מסורבלת - אבל לצערי זה משותף לרוב החברות שאני עובד מולן"
+      },
+      {
+        "category": "Customer Service",
+        "problem_statement": "PayPlus customer service phone line is experiencing a technical issue, making it impossible to call them.",
+        "severity_signal": "High",
+        "original_quote": "יש תקלה בטלפון של השירות לקוחות של פייפלוס? אין אפשרות לחייג"
+      },
+      {
+        "category": "Google My Business",
+        "problem_statement": "Experiencing issues with Google My Business verification for a new restaurant, as the location remains unverified despite submitting a video. Also, struggling to find a way to contact Google support for assistance.",
+        "severity_signal": "High",
+        "original_quote": "יש לי בעיה עם אימות של מסעדה חדשה בירושלים, בגוגל. העלינו וידאו מהמקום, ועדיין המקום לא אומת. יש פה מישהו שיכול לעזור? או שיכול לייעץ איך פונים לתמיכה של גוגל?"
+      },
+      {
+        "category": "Customer Service",
+        "problem_statement": "There is uncertainty whether Google My Business offers direct customer support for verification issues.",
+        "severity_signal": "Medium",
+        "original_quote": "לא בטוחה שיש להם שירות תמיכה לזה"
+      },
+      {
+        "category": "Customer Service",
+        "problem_statement": "Previous Google My Business support options, such as live video calls, are no longer available, and it's difficult to find alternative contact methods like an email address.",
+        "severity_signal": "High",
+        "original_quote": "כבר לא עובדים..... יש מייל אולי למישהו?"
+      },
+      {
+        "category": "Shopify",
+        "problem_statement": "Users lack sufficient technical understanding of Shopify to integrate YouTube Shorts into product pages and the homepage, requiring external help or plugins.",
+        "severity_signal": "Medium",
+        "original_quote": "אני לא מספיק מבין בשופייפי ....אבל ראיתי איזה יוטיוב על זה בעבר על שילוב של שורטים בעמוד המוצר"
+      },
+      {
+        "category": "SEO",
+        "problem_statement": "A user is dissatisfied with their current SEO provider, feeling that the work is not intensive enough and that money is being wasted, despite seeing some improvements.",
+        "severity_signal": "High",
+        "original_quote": "כי אני מרגיש שהמקדם לא עושה מספיק ושסתם נשפך כסף, ואשמח לשמוע מכיוונים אחרים איך זה אמור להראות..."
+      },
+      {
+        "category": "SEO",
+        "problem_statement": "Many SEO providers charge a relatively low price but deliver minimal optimization and content, leading to client dissatisfaction.",
+        "severity_signal": "High",
+        "original_quote": "הרוב לוקחים מחיר יחסית נמוך אולי יותר אבל לא עושים כמעט שום אופטימזציה"
+      },
+      {
+        "category": "SEO",
+        "problem_statement": "A specific SEO company is described as performing very poorly ('garbage level') and forces clients into unreasonable year-long commitments, refusing to release them early.",
+        "severity_signal": "High",
+        "original_quote": "הוא עובד עם חברה שהיא ברמת הפח אשפה (תסלחו לי על השפה). ... יש לא מעט אנשים שנפגעו מהם בקבוצה ושהם דורשים התחייבות לשנה ולא מסכימים לשחרר לפני א משנה מה"
+      }
+    ],
+    "53": [
+      {
+        "category": "E-commerce Platform / Integrations",
+        "problem_statement": "A client's existing mailing system is not suitable for e-commerce integration and has broken functionality.",
+        "severity_signal": "High",
+        "original_quote": "כי זו לא מערכת שמתאימה לאיקומרס"
+      },
+      {
+        "category": "Website Performance / Image Optimization",
+        "problem_statement": "There is a need for an effective image optimization tool for a large WooCommerce site with 15,000 products.",
+        "severity_signal": "Medium",
+        "original_quote": "על איזה כלי/ תוסף אופטימיזציה לתמונות, הייתם ממליצים לאתר עם 15,000 מוצרים?"
+      },
+      {
+        "category": "Website Performance / Image Optimization",
+        "problem_statement": "Concerns exist about using bulk image compression tools due to the risk of deleting original files, the necessity of a full site backup, and the potential for a long process that impacts site performance.",
+        "severity_signal": "Medium",
+        "original_quote": "אבל לגבי דחיסה גורפת לתמונות קיימות, אני מהססת כי : * התוסף דוחס ומוחק את המקור * הבנתי שכדאי לבצע גיבוי לפני כן לכל האתר ולעקוב אחרי זה * התהליך יתפרס על כמה ימים ויפגע קצת בביצועים"
+      },
+      {
+        "category": "E-commerce Platform / Multi-store Management",
+        "problem_statement": "Difficulty managing two parallel Shopify stores (e.g., for different languages/currencies) due to product ID differences, SKU limitations (only for variants), and general challenges in synchronizing and controlling identical products across separate stores.",
+        "severity_signal": "High",
+        "original_quote": "השאלה שלי אם מישהו עובד בשיטה זו ואיך מנהלים את שתי החנויות במקביל? הרי המוצרים כביכול זהים אבל שונים. ה id של המוצר כמובן שונה.... sku אפשר להגדיר רק לווריאנט ולא למוצר וזה מגביל ביכולות השליטה על המוצר.."
+      },
+      {
+        "category": "E-commerce Platform / Multi-store Management",
+        "problem_statement": "A solution is needed to link products between two separate Shopify stores, even when managed independently.",
+        "severity_signal": "High",
+        "original_quote": "השאלה היא איך לקשר בין המוצרים בשתי החנויות...."
+      },
+      {
+        "category": "Logistics / Shipping",
+        "problem_statement": "Inability to find a reliable shipping company for mattresses, having experienced disappointment with multiple providers over several years.",
+        "severity_signal": "High",
+        "original_quote": "אני שנים מחפשת חברת משלוחים למזרונים שאני מייצרת והחלפתי כבר 5 חברות , כולן איכזבו"
+      },
+      {
+        "category": "Community Management",
+        "problem_statement": "Users are violating group rules by engaging in promotional activities and directing members to other WhatsApp groups.",
+        "severity_signal": "Medium",
+        "original_quote": "לא ניתן *לעשות קידום מכירות* ובטח שלא *להפנות לקבוצות וואטסאפ אחרות*"
+      },
+      {
+        "category": "Marketing / Legal Compliance",
+        "problem_statement": "It is unclear whether it is permissible to send SMS messages (e.g., purchase confirmations, promotions) to telemarketing customers who have not explicitly opted-in for marketing communications.",
+        "severity_signal": "Medium",
+        "original_quote": "לא שאלתי את זה, שאלתי אם אתם עושים את זה למרות שלא אישרו שליחת דיוורים כמו בקלאסי של פופאפ או בפוטר של האתר"
+      },
+      {
+        "category": "Marketing / Legal Compliance",
+        "problem_statement": "It is forbidden by law in Israel to send marketing messages to individuals who have not given explicit consent.",
+        "severity_signal": "High",
+        "original_quote": "אסור לשלוח הודעות בארץ למי שלא אישר"
+      },
+      {
+        "category": "Marketing / Lead Conversion",
+        "problem_statement": "There is difficulty in converting telemarketing customers into opted-in subscribers for ongoing marketing communications.",
+        "severity_signal": "Medium",
+        "original_quote": "אז איך אתה ממיר לקוחות טלמרקטינג למאושרי דיוור?"
+      },
+      {
+        "category": "Inventory Management / Integrations",
+        "problem_statement": "There is a need for a software or system capable of integrating and managing both online and physical inventory simultaneously.",
+        "severity_signal": "High",
+        "original_quote": "האם יש איזשהי תוכנה או מערכת שיודעת להתממשק עם הניהול מלאי באתר ופיזי ביחד?"
+      },
+      {
+        "category": "Inventory Management / Integrations",
+        "problem_statement": "Current accounting/ERP systems (e.g., Rivhit) do not provide integrated management for online and physical inventory.",
+        "severity_signal": "Medium",
+        "original_quote": "ריווחית וכל אלה הבנתי שלא יודעות"
+      },
+      {
+        "category": "ERP / Integrations",
+        "problem_statement": "Integrating Shopify with Priority ERP currently necessitates custom development, which is complex and costly.",
+        "severity_signal": "Medium",
+        "original_quote": "היום נדרש פיתוח מותאם אישית"
+      },
+      {
+        "category": "ERP / Integrations",
+        "problem_statement": "Significant problems are encountered with current custom integrations, particularly for ERP systems like Priority.",
+        "severity_signal": "High",
+        "original_quote": "יש מלא בעיות בחיבור המותאם אישית לפחות לי באופן אישי"
+      },
+      {
+        "category": "ERP / Cost",
+        "problem_statement": "High ongoing costs are associated with Priority ERP and the additional expenses of custom development for integrations.",
+        "severity_signal": "Medium",
+        "original_quote": "צריך לקחת בחשבון את עלויות פריוריטי בשוטף ובפיתוח מותאם אישית"
+      }
+    ],
+    "177": [
+      {
+        "category": "Logistics",
+        "problem_statement": "Packages frequently get lost, misplaced, or delivered to the wrong address by the shipping company, leading to financial losses (refunds/reshipments) and a feeling of helplessness for the business owner.",
+        "severity_signal": "High",
+        "original_quote": "אתה יכול לשלוח משלוח והוא נעלם , נאבד, מגיע לנקודה אחרת ואז מתחיל הבלאגן ! ... אין לי כל כך מה לעשות חוץ מלהחיר כסף או לשלוח משלוח חדש . בחודש יוני 5 משלוחים נעלמו . ... מתסכל ואני לא רואה פתרון לבעיה"
+      },
+      {
+        "category": "Payments",
+        "problem_statement": "Israeli credit card processing companies do not support installment payments for US-issued credit cards, preventing businesses from offering flexible payment options to American customers for high-value orders.",
+        "severity_signal": "High",
+        "original_quote": "חברות כרטיסי אשראי ישראליות לא יודעות לתת אופציה לתשלומים למה שהם קוראים \"כרטיסי תייר\" אני מחפש איך לתת על סכומים גדולים תשלומים לקהל אמריקאי ."
+      },
+      {
+        "category": "Payments",
+        "problem_statement": "Businesses operating with an Israeli PayPal account are unable to utilize PayPal Pay Later, which restricts their ability to offer flexible payment solutions to US customers.",
+        "severity_signal": "Medium",
+        "original_quote": "אני חושב שחשבון ישראלי לא יכול להפעיל PayPal Pay Later"
+      },
+      {
+        "category": "Business Operations",
+        "problem_statement": "Israeli businesses face a significant administrative burden and 'headache' when trying to access US payment solutions, often requiring them to establish a US LLC, which they prefer to avoid.",
+        "severity_signal": "High",
+        "original_quote": "לחברות LLC יש הרבה פתרונות , מחפש לחסוך את הכאב ראש הזה , להשאר עם חברה ישראלית"
+      },
+      {
+        "category": "Marketing",
+        "problem_statement": "A Google Ads promotional credit was not automatically applied after four months, despite meeting all criteria, and there is no accessible Google support to resolve the issue.",
+        "severity_signal": "High",
+        "original_quote": "השתמשנו בהטבה של 1,500 ש\"ח בחינם לפרסום בגוגל אדס. עקבנו אחרי כל השלבים. הקוד מכירה כמובן לא הוזן, עברו כבר 4 חודשים מאז. אין אף אחד בגוגל שיודע לתת לי מענה."
+      },
+      {
+        "category": "Customer Communication",
+        "problem_statement": "SMS notifications from shipping companies are frequently misdirected to spam folders, particularly on Android devices, leading to customers missing critical delivery updates.",
+        "severity_signal": "Medium",
+        "original_quote": "האם יתכן ש SMS מחברת משלוחים נכנס לתיבת ספאם במקום לתיבה הראשית ? בעיקר באנדרואיד"
+      },
+      {
+        "category": "Analytics",
+        "problem_statement": "There is a need for a tool or plugin within WordPress/WooCommerce that can accurately calculate and display profit margins for orders over specific time periods, as the default reports only show revenue.",
+        "severity_signal": "Medium",
+        "original_quote": "האם יש תוכנה או תוסף לוורדפרס מהניסיון שלכם שעוזר לי לדעת כמה הרווחתי בהזמנות האתר לטווח זמן מסוים (שבוע / חודש) ?!"
+      },
+      {
+        "category": "Analytics",
+        "problem_statement": "The default reporting features in WooCommerce do not include profitability calculations.",
+        "severity_signal": "Medium",
+        "original_quote": "אין בהם רווחיות לדעתי"
+      },
+      {
+        "category": "Inventory Management",
+        "problem_statement": "WooCommerce does not have a native feature to input the cost of goods, which is essential for calculating profitability in reports.",
+        "severity_signal": "Medium",
+        "original_quote": "אין רווחיות כי אין לך אופציה להזין את עלות המוצר"
+      },
+      {
+        "category": "Logistics",
+        "problem_statement": "The per-shipment payment model used by Shipper Global is inconvenient and annoying for users.",
+        "severity_signal": "Low",
+        "original_quote": "חוץ מעניין התשלום (שזה תשלום פר משלוח וקצת מציק אבל אמור להשתנות בקרוב)"
+      }
+    ],
+    "85": [
+      {
+        "category": "Shopify Features",
+        "problem_statement": "Users of standard Shopify stores struggle to implement 'buy X for Y price' promotions, as existing quantity discounts are percentage-based, and a fixed price for quantity is not readily available.",
+        "severity_signal": "Medium",
+        "original_quote": "אבל אני לא מוצא אפליקציה שאפשרי לבצע קנה כמות במחיר FIX . לדוגמא קנה 2 ב 50 ש\"ח קנה 4 ב80 ש\"ח האתר לא שופיפי פלוס"
+      },
+      {
+        "category": "Shopify Features",
+        "problem_statement": "Standard Shopify stores (non-Plus) are unable to implement post-purchase upsell functionalities.",
+        "severity_signal": "Medium",
+        "original_quote": "לצערי לא בגלל ששופיפיי לא מאפשרת את זה ללא plus.."
+      },
+      {
+        "category": "Social Media Marketing",
+        "problem_statement": "TikTok's business verification process is problematic, preventing users from adding website links to their profiles even after submitting all required documents, which negatively impacts organic ad conversions.",
+        "severity_signal": "High",
+        "original_quote": "עדיין לא אישרו לי את העסק באופן רשמי ואין ביכולתנו לשים קישור לאתר בפרופיל, רצות כרגע פרסומות אורגניות וזה פוגע בהמרות"
+      },
+      {
+        "category": "Social Media Platform Usability",
+        "problem_statement": "Users experience inconsistent functionality or limitations when trying to perform certain actions (e.g., adding links) on social media platforms like TikTok, depending on whether they use a mobile device or a desktop browser.",
+        "severity_signal": "Medium",
+        "original_quote": "תנסה מהנייד ויתן לך. מדפדפן לא נותן"
+      },
+      {
+        "category": "Business Tools",
+        "problem_statement": "Small business owners struggle to find a single, integrated platform that can handle website creation, service booking with calendar management, automated reminders/email marketing, and various payment processing options (credit card, Bit, Paybox).",
+        "severity_signal": "Medium",
+        "original_quote": "אני מחפש משהו שבו אוכל: לבנות אתר משלי... לקבל הזמנות של שירותים... לשלוח תזכורות ודיוורים מכל סוג לחייב באשראי , ביט פייבוקס"
+      },
+      {
+        "category": "Marketing",
+        "problem_statement": "Users need an application that allows them to easily place their products (e.g., pillows, maps) onto existing photos or backgrounds for marketing and visualization purposes.",
+        "severity_signal": "Low",
+        "original_quote": "מחפשת אפליקציה עם צילומים או רקעים שעליהם אפשר לשתול מוצרים"
+      },
+      {
+        "category": "Website Development",
+        "problem_statement": "Building a comprehensive business website or system is complex and often requires professional expertise, making DIY attempts challenging and potentially inefficient for business owners.",
+        "severity_signal": "Medium",
+        "original_quote": "בחיאת אל תבנה לבד"
+      },
+      {
+        "category": "Customer Service",
+        "problem_statement": "Businesses face legal and accessibility risks, including potential lawsuits, when using music on hold in their phone systems, particularly concerning deaf individuals.",
+        "severity_signal": "High",
+        "original_quote": "אסור להשמיע מוסיקה בהמתנה בטלפון- זה מעצבן את החרשים - או משמח את החרשים שאוהבים לתבוע."
+      },
+      {
+        "category": "Ad Platform Bugs",
+        "problem_statement": "Meta (Facebook/Instagram) ad campaigns are unexpectedly running in incorrect languages (e.g., Russian) despite the user not setting Russian creative, possibly due to AI-driven text improvements, leading to misdirected ads.",
+        "severity_signal": "High",
+        "original_quote": "פתאום אני רואה את הקמפיין שלי רץ בשפה רוסית ולא שמתי קריאייטיב ברוסית"
+      }
+    ],
+    "54": [
+      {
+        "category": "Accounting/Finance",
+        "problem_statement": "Difficulty finding a recommended accounting system that integrates with e-commerce platforms like WordPress.",
+        "severity_signal": "Low",
+        "original_quote": "איזה מערכת חשבונאות מומלצת יש?"
+      },
+      {
+        "category": "Sales Performance",
+        "problem_statement": "Experiencing a sharp and unusually severe decline in sales performance compared to previous years.",
+        "severity_signal": "High",
+        "original_quote": "משהו מרגיש ירידה חדה בחודש האחרון? בצורה יותר חמורה מהשנים הקודמות?"
+      },
+      {
+        "category": "Marketing Performance",
+        "problem_statement": "Lack of marketing exposure leads to poor results and wasted advertising budget.",
+        "severity_signal": "High",
+        "original_quote": "כן אין חשיפה צרצרים כסף בפח"
+      },
+      {
+        "category": "Creative Services",
+        "problem_statement": "Difficulty finding designers for website banners and video editing services (e.g., adding music, text to raw footage).",
+        "severity_signal": "Low",
+        "original_quote": "אשמח אם למישהו יש מעצבים לבאנרים לאתר ומעצבים לסרטונים עריכה של הסרטונים הגולמיים להוסיף מוזיקה טקסט וכו"
+      },
+      {
+        "category": "Marketing Performance",
+        "problem_statement": "Experiencing a decline in orders despite running paid marketing campaigns.",
+        "severity_signal": "Medium",
+        "original_quote": "מי עושה ממומן ומרגיש ירידה בהזמנות?"
+      },
+      {
+        "category": "Legal/Website Compliance",
+        "problem_statement": "Unclear about legal requirements for website accessibility and the associated costs for compliance solutions.",
+        "severity_signal": "Low",
+        "original_quote": "האם חייב להנגיש את האתר? ואם כן, כמה זה אמור לעלות כתוסף?"
+      },
+      {
+        "category": "Legal/Website Compliance",
+        "problem_statement": "Standard website accessibility plugins are insufficient to meet full legal compliance, exposing businesses to potential lawsuits.",
+        "severity_signal": "Medium",
+        "original_quote": "תוסף לא מכסה 100% מהחוק ולכן עדיין יש חשיפה לתביעה"
+      },
+      {
+        "category": "Legal/Operational Costs",
+        "problem_statement": "The cost of a lawyer's letter to address legal threats (e.g., spam complaints) is high, potentially comparable to the demanded settlement amount.",
+        "severity_signal": "Medium",
+        "original_quote": "מכתב מעורך דין יעלה אותו סכום שדורשים"
+      },
+      {
+        "category": "Marketing/Affiliate Programs",
+        "problem_statement": "Difficulty finding a suitable affiliate marketing platform in Israel.",
+        "severity_signal": "Low",
+        "original_quote": "יש בארץ פלטפורמה לתוכניות שותפים/אפיליאייטים שמישהו עובד איתה?"
+      },
+      {
+        "category": "Marketing/Affiliate Programs",
+        "problem_statement": "Affiliate marketing platforms have generally failed to gain traction in Israel, and even marketplace models face significant challenges.",
+        "severity_signal": "Medium",
+        "original_quote": "התחום הזה לא ממש הצליח להתרומם בארץ"
+      },
+      {
+        "category": "Customer Service/Email Marketing",
+        "problem_statement": "Customers frequently claim to have unsubscribed from email lists but still receive messages, leading to disputes despite system logs showing otherwise.",
+        "severity_signal": "Medium",
+        "original_quote": "אני נתקלת דרך הלקוחות שלי עם לקוחות שטוענים שהם הסירו את עצמם ואחכ קיבלו מייל."
+      },
+      {
+        "category": "Creative Services",
+        "problem_statement": "Difficulty finding a photographer for specific concept and product photography (e.g., children's clothing).",
+        "severity_signal": "Low",
+        "original_quote": "מחפש צלם ליום צילום קונספט/בגדי ילדים"
+      },
+      {
+        "category": "Customer Service/Email Marketing",
+        "problem_statement": "Customers register with multiple email addresses, unsubscribe from only one, and then complain about receiving emails to the other, sometimes escalating to legal threats.",
+        "severity_signal": "Medium",
+        "original_quote": "מצאנו שהוא נרשם משתי מיילים שונים. הוא הסיר את אחד המיילים לשם כמובן הפסיק לקבל הודעות אך המייל השני נשאר ברשימת התפוצה... הוא מצידו ניסה להפעיל לחץ ולאיים במכתבי התראה לפני הליכים משפטיים"
+      },
+      {
+        "category": "Email Marketing/CRM",
+        "problem_statement": "Email marketing platforms lack the ability to link multiple user accounts belonging to the same individual (e.g., different email addresses), complicating unsubscribe management and leading to customer complaints.",
+        "severity_signal": "Medium",
+        "original_quote": "העיינין שהוא נרשם עם שתי יוזרים שונים שלא משוייכים אחד לשני גם פלאשי לא יכולים לקשר בינהם..."
+      }
+    ],
+    "208": [
+      {
+        "category": "Service Provider Management",
+        "problem_statement": "Lack of transparency and clear communication from a service provider regarding their work and results.",
+        "severity_signal": "Medium",
+        "original_quote": "יש מצב שהוא פשוט לא מנגיש לך את העבודה שלו?"
+      },
+      {
+        "category": "Service Provider Management",
+        "problem_statement": "Working with poor quality service providers who demand unreasonable long-term commitments (e.g., one year) and refuse early termination, causing significant harm to clients.",
+        "severity_signal": "High",
+        "original_quote": "הוא עובד עם חברה שהיא ברמת הפח אשפה... דורשים התחייבות לשנה ולא מסכימים לשחרר לפני א משנה מה"
+      },
+      {
+        "category": "Payments",
+        "problem_statement": "Persistent and varied payment processing issues with PayPlus, including credit card rejections, users being kicked out, long loading times, and payments not going through, leading to business damages.",
+        "severity_signal": "High",
+        "original_quote": "התקלה אצלי בפייפלוס לא נעלמה... ממש מטריד. לא מתקבל כרטיס אשראי/ נזרקים החוצה/ העיגול מסתובב הרבה זמן והתשלום לא עובר... בינתיים נזקים !"
+      },
+      {
+        "category": "Payments",
+        "problem_statement": "Experiencing payment processing issues with Bit, where customers were kicked out or payments got stuck with a spinning circle.",
+        "severity_signal": "Medium",
+        "original_quote": "זה קרה גם אצלי בסופש והתקלה הייתה של ביט בסוף... כל מי שניסה לשלם אצלי בביט נזרק החוצה אחרי ששעה הסתובב לו העיגול"
+      },
+      {
+        "category": "Payments",
+        "problem_statement": "Experiencing payment processing issues with PayPal.",
+        "severity_signal": "Low",
+        "original_quote": "לנו היה גם זה היה בכלל תקלה של פייפאל"
+      },
+      {
+        "category": "Marketing",
+        "problem_statement": "Risk of damage from incorrect or unprofessional link-building practices due to the complexity and many parameters involved in SEO.",
+        "severity_signal": "Medium",
+        "original_quote": "יש הרבה דקויות שאפשר לעשות טעויות שרק יעשו נזק כמו ׳׳פרופיל קישורים אמיתי׳׳ ועוד…"
+      },
+      {
+        "category": "Legal & Compliance",
+        "problem_statement": "New privacy law (Amendment 13) coming into effect poses a risk of lawsuits against website owners who collect user data if they do not comply with new requirements.",
+        "severity_signal": "High",
+        "original_quote": "בתאריך 14.8.25 יכנס לתוקף תיקון 13 לחוק הגנת הפרטיות, ובדומה לחוק הנגישות - גם כאן צפויה להתחיל תופעה של תביעות נגד בעלי אתרים ועסקים."
+      },
+      {
+        "category": "Legal & Compliance",
+        "problem_statement": "Uncertainty and burden regarding the necessity of adding a cookie consent pop-up to comply with new privacy regulations.",
+        "severity_signal": "Medium",
+        "original_quote": "חייב להוסיף פופאפ לעוגיות?"
+      },
+      {
+        "category": "Legal & Compliance",
+        "problem_statement": "Complexity and varying requirements of the new privacy law make it difficult for website owners to understand their specific obligations without legal consultation.",
+        "severity_signal": "Medium",
+        "original_quote": "היקף האחריות ומה נדרש מכל אחד כדי לעמוד בחוק משתנה בהתאם לסוג המידע שנאסף. מי שלא בטוח שווה להתייעץ משפטית.."
+      },
+      {
+        "category": "Logistics & Shipping",
+        "problem_statement": "Dissatisfaction with K-Express shipping services in the past, leading to switching providers.",
+        "severity_signal": "Medium",
+        "original_quote": "הייתי ועזבתי לפני חצי שנה לא היו משהו"
+      },
+      {
+        "category": "Logistics & Shipping",
+        "problem_statement": "Extreme dissatisfaction with Cheetah shipping services, causing significant distress.",
+        "severity_signal": "High",
+        "original_quote": "צ׳יטה😭"
+      },
+      {
+        "category": "Logistics & Shipping",
+        "problem_statement": "Difficulty finding information about minimum shipment requirements on a shipping provider's website.",
+        "severity_signal": "Low",
+        "original_quote": "לא הצלחתי למצוא אצלם באתר מידע על זה"
+      },
+      {
+        "category": "Marketing",
+        "problem_statement": "Inaccurate business location on Google Maps, causing issues for customers, and difficulty getting Google to approve location change requests.",
+        "severity_signal": "High",
+        "original_quote": "כרגע העסק ממוקם לא מדויק וזה יוצר בעיות עם לקוחות שמגיעות, בקיצור שלחתי להם שינוי של מיקום ולא מקבלת לזה אישור"
+      }
+    ],
+    "178": [
+      {
+        "category": "Logistics",
+        "problem_statement": "The payment model for shipping services, which charges per shipment, is inconvenient and annoying.",
+        "severity_signal": "Medium",
+        "original_quote": "חוץ מעניין התשלום (שזה תשלום פר משלוח וקצת מציק אבל אמור להשתנות בקרוב)"
+      },
+      {
+        "category": "Marketing",
+        "problem_statement": "Unable to verify a new Facebook Ads account because SMS verification codes are not received, and Facebook support is unhelpful, stating there's no real solution.",
+        "severity_signal": "High",
+        "original_quote": "קופץ לי הודעה שאני צריך לעשות אימות חשבון ורשום שזה שולח SMS למספר שלי אבל בחיים אני לא מקבל הודעה כמו כן התמיכה שלהם מזעזעת והמוקדן אפילו אומר לי שאין באמת פתרון לזה"
+      },
+      {
+        "category": "Website Management",
+        "problem_statement": "Elementor Pro disappeared after a website update and does not reappear even after re-updating.",
+        "severity_signal": "Medium",
+        "original_quote": "מישהו נתקל בבעיה עשיתי עדכון ונעלם אלמנטור פרו, עידכנתי בחזרה ולא מופיע?"
+      },
+      {
+        "category": "Marketing",
+        "problem_statement": "Receiving a high volume of sessions and visitors from outside the country on a Shopify store marketed domestically, which appear to be bot traffic.",
+        "severity_signal": "Medium",
+        "original_quote": "אני נתקל לאחרונה בהמון סשנים ומבקרים שהם מחוץ לארץ, נראה כמו בוטים."
+      },
+      {
+        "category": "Marketing",
+        "problem_statement": "The 'add to cart' event (after a floating cart) is being incorrectly tagged as a 'page view' by the 'Pixel Your Site' plugin.",
+        "severity_signal": "Medium",
+        "original_quote": "מישהו נתקל בבעיה, עם pixel your site, אוונט של מעבר לעגלה אחרי העגלה הצפה, מתוייג כ page view?"
+      },
+      {
+        "category": "Payments",
+        "problem_statement": "Isracard charges excessive and hidden fees (e.g., for transaction refunds, installment payments) and is unwilling to negotiate discounts, with invoices being unclear and difficult to understand.",
+        "severity_signal": "High",
+        "original_quote": "אני סולק כרגע עם ישראכרט והם פשוט טוחנים אותי בעמלות ואין עם מי לדבר שם על הנחה… לקחו לי עמלה על זיכוי עסקאות.. ולוקחים תוספת של 0.1% על עסקאות תשלומים. ואי אפשר להבין כלום מהחשבונית.. עד שלא התחברתי להתאמות אשראי בכלל לא ראיתי את זה."
+      },
+      {
+        "category": "Fraud Prevention",
+        "problem_statement": "Difficulty dealing with chargebacks and stolen credit cards when 3DS is not enabled, as there's no specific identifying information (different addresses, locations, names).",
+        "severity_signal": "High",
+        "original_quote": "איך אתם מתמודדים עם הכחשות עסקה/כרטיסי אשראי גנובים ללא 3DS - פתרון כלשהו ? , אין משהו מזהה ספיציפי כל פעם כתובת אחרת/מיקום אחר/שמות אחרים"
+      },
+      {
+        "category": "Payments",
+        "problem_statement": "Payment processors generally impose hidden/false fees (e.g., cancellation, management, withdrawal, per-transaction fees) and are unresponsive to businesses that don't process very high volumes, leading to frustration.",
+        "severity_signal": "High",
+        "original_quote": "כל הסולקים דוחפים עמלות שקר.... ישראכרט ומקס דוחפים עמלות ביטול.. דמי ניהול ועוד.. גרואו דחפו עמלת משיכה לבנק ושקל לעסקה ואף אחד לא מדבר איתך אם אתה לא מעביר מאות אלפים.. מייאש 😟"
+      },
+      {
+        "category": "Accounting",
+        "problem_statement": "Difficulty obtaining clear receipts or proper documentation for Bit payment app fees, making it challenging for accounting and tax reporting.",
+        "severity_signal": "Medium",
+        "original_quote": "איך אתם מדפיסים קבלות של ביט? עבור העמלות לביט"
+      },
+      {
+        "category": "E-commerce Platform",
+        "problem_statement": "There is a lack of native integration for certain payment methods (e.g., Transila, Bit, Apple Pay, Google Pay) with Shopify.",
+        "severity_signal": "Medium",
+        "original_quote": "הבעיה שאין נייטיב עם שופיפיי"
+      }
+    ],
+    "209": [
+      {
+        "category": "Local SEO",
+        "problem_statement": "The business location on Google Maps is inaccurate, causing customers to get lost and frequently call for directions. A submitted correction has been pending for a week without approval.",
+        "severity_signal": "High",
+        "original_quote": "כרגע העסק ממוקם לא מדויק וזה יוצר בעיות עם לקוחות שמגיעות, בקיצור שלחתי להם שינוי של מיקום ולא מקבלת לזה אישור... שלחתי מיקום חדש אבל כבר שבוע לא שונה... זה פשוט ייוצר בעיה עם מגיעות לכיכר ואז הם מתקשרות לשאול איפה היא איפה לאן להגיע כל פעם מחדש"
+      },
+      {
+        "category": "Marketing / Google Ads",
+        "problem_statement": "Lacks knowledge and expertise in Google Ads, needing guidance on conversion tracking, keyword research, and campaign optimization.",
+        "severity_signal": "Medium",
+        "original_quote": "מחפשת המלצה למישהו שיכול ללמד אותי על גוגל ads כדי להבין איך לעקוב בהמרות, ללמוד על מילות מפתח וכ'ו. וכמובן שיעבור איתי על הקמפיינים הקיימים"
+      },
+      {
+        "category": "AI Tools / ChatGPT",
+        "problem_statement": "The latest version of ChatGPT (GPT-5) is perceived as a regression, performing worse than previous versions.",
+        "severity_signal": "High",
+        "original_quote": "נוראי חזר כמה גרסאות אחורה"
+      },
+      {
+        "category": "AI Tools / ChatGPT",
+        "problem_statement": "User does not perceive any improvements in the latest version of ChatGPT (GPT-5).",
+        "severity_signal": "Medium",
+        "original_quote": "אני מנסה להבין מה השתפר ותכלס לא מרגיש כלום"
+      },
+      {
+        "category": "Payments / Operational Systems",
+        "problem_statement": "Seeking recommendations for an alternative operational system, implying the current system (PayPlus) may not be meeting needs.",
+        "severity_signal": "Medium",
+        "original_quote": "מישהו יכול להמליץ על תפעולית? היום אני עם פייפלוס"
+      },
+      {
+        "category": "AI Tools / ChatGPT",
+        "problem_statement": "Pre-configured or 'pre-built' conversations/prompts in ChatGPT are now providing lower quality responses compared to previous versions.",
+        "severity_signal": "High",
+        "original_quote": "מהצד שלי השיחות המוכנות שבניתי איתו התשובות פחות טובות לא כמו שהיו"
+      },
+      {
+        "category": "Logistics / Shipping",
+        "problem_statement": "The current shipping provider has insufficient pickup points in certain areas, requiring the addition of another shipping solution.",
+        "severity_signal": "Medium",
+        "original_quote": "שוקל להוסיף פתרון משלוחים נוסף לאזורים שאין נקודות איסוף אצל ספק המשלוחים הקיים"
+      },
+      {
+        "category": "Legal / Website Compliance",
+        "problem_statement": "Uncertainty regarding the correct wording for cookie consent pop-ups to comply with new cookie approval laws.",
+        "severity_signal": "Medium",
+        "original_quote": "לאור חוק אישור קוקיס איזה הודעה אני צריך לרשום בפופאפ הקופץ?"
+      },
+      {
+        "category": "Logistics / Shipping",
+        "problem_statement": "Experienced poor service with Israel Post for shipping.",
+        "severity_signal": "High",
+        "original_quote": "עבדתי עם הדואר בעבר, שירות חרא כצפוי"
+      },
+      {
+        "category": "Logistics / Shipping",
+        "problem_statement": "Low customer preference for Israel Post as a shipping option, even when offered.",
+        "severity_signal": "Medium",
+        "original_quote": "לא הרבה בוחרים בדואר ישראל הכוונה, גם כשיש תאופציה"
+      },
+      {
+        "category": "Legal / Website Compliance",
+        "problem_statement": "Unsure if their payment gateway/interface provider (Tranzila) offers compliance solutions or certifications for the new cookie law.",
+        "severity_signal": "Medium",
+        "original_quote": "האם אתם מנפיקים אישור לפי החוק החדש שאתם עומדים בנושא של הקוקיז? למי שמחובר לממשק שלכם ועובד איתכם?"
+      },
+      {
+        "category": "Legal / Website Compliance",
+        "problem_statement": "Lack of clear understanding or awareness regarding recent updates to privacy protection laws and their specific requirements for website owners.",
+        "severity_signal": "Medium",
+        "original_quote": "היי, אתם יודעים על זה משהו?"
+      },
+      {
+        "category": "Legal / Website Compliance",
+        "problem_statement": "Ambiguity surrounding the specific requirements of the new privacy law, particularly whether a simple checkbox is sufficient for consent or if a more explicit 'yes, I agree' field is needed on every form.",
+        "severity_signal": "High",
+        "original_quote": "הוספת שדה הסכמה לכל טופס? מה זה אומר? שהצק בוקס לא מספיק אלא גם צריך שיהיה מוזן \" כן אני מסכים\"? לא ברור"
+      },
+      {
+        "category": "Legal / Website Compliance",
+        "problem_statement": "Lack of specific guidance on which sections or clauses of the privacy policy document need to be updated to comply with the new privacy law.",
+        "severity_signal": "High",
+        "original_quote": "עדכןן מסמך פרטיות על מה מדובר מה מעדכנים? איזה סעיף?"
+      },
+      {
+        "category": "Legal / Website Compliance",
+        "problem_statement": "Confusion and uncertainty due to conflicting advice received regarding compliance with new privacy laws.",
+        "severity_signal": "Medium",
+        "original_quote": "אז לא לשמוע לה?"
+      },
+      {
+        "category": "Communication / Legal / Website Compliance",
+        "problem_statement": "Difficulty understanding the explanations provided by a service provider regarding the requirements for privacy law compliance.",
+        "severity_signal": "Medium",
+        "original_quote": "לא מבין מה היא עונה על מה ששאלתי"
+      },
+      {
+        "category": "Legal / Website Compliance",
+        "problem_statement": "Persistent lack of clarity regarding the requirement to 'add a consent field to every form' for privacy law compliance.",
+        "severity_signal": "High",
+        "original_quote": "מה זה אומר הוספת שדה הסכמה בכל טופס..."
+      },
+      {
+        "category": "Website Design / User Experience",
+        "problem_statement": "The website design is perceived as cluttered with product pages, unprofessional, and somewhat childish.",
+        "severity_signal": "Medium",
+        "original_quote": "האמת האתר נראה עמוס בעמודי מוצרים, לא מקצועי ואפילו טיפה ילדותי.."
+      },
+      {
+        "category": "Shopify Apps / Customer Reviews",
+        "problem_statement": "Difficulty finding a simple and straightforward Shopify app for customer reviews, specifically avoiding Flashy.",
+        "severity_signal": "Medium",
+        "original_quote": "מישהו מכיר תוסף לשופיפיי להשארת ביקורות? משהו פשוט פשוט פשוט.. לא דרך פלאשי"
+      }
+    ],
+    "86": [
+      {
+        "category": "Tool Support",
+        "problem_statement": "Users experience technical issues with Yotpo and struggle to get help from their support team.",
+        "severity_signal": "High",
+        "original_quote": "יש לי כמה בעיות טכניות וממש מתקשה לקבל עזרה מהתמיכה שלהם"
+      },
+      {
+        "category": "Logistics",
+        "problem_statement": "Difficulty reaching senior contacts at Katz Deliveries logistics company.",
+        "severity_signal": "Medium",
+        "original_quote": "למישהו יש מספר של מישהו בכיר בכץ משלוחים?"
+      },
+      {
+        "category": "Product Information",
+        "problem_statement": "Customers frequently call to inquire about product composition (e.g., number of tiles) even when the information is already provided in the product description, indicating a lack of clarity or discoverability.",
+        "severity_signal": "Medium",
+        "original_quote": "ככה קיים כרגע באתר ומתקשר עם אלי לשאול מכמה אריחים זה מורכב , למרות שכתוב בפירוט"
+      },
+      {
+        "category": "Website Usability",
+        "problem_statement": "The website's product presentation, especially with different layout options shown in images, is confusing for customers, leading them to contact support to understand how many components (e.g., tiles) they need.",
+        "severity_signal": "Medium",
+        "original_quote": "האמת שבאתר זה באמת מבלבל... לדוגמא אני רוצה למיטה רוחב 180 סמ - יש לך שם תמונות שונות שמראות אפשרויות פריסה שונות.. אז באמת סביר להניח שהייתי יוצרת קשר להבין כמה אריחים אני צריכה.."
+      },
+      {
+        "category": "Shopify Technical Integration",
+        "problem_statement": "Difficulty integrating the new Shopify checkout with an Israeli government address autocomplete service (gov.il) instead of Google Maps.",
+        "severity_signal": "Medium",
+        "original_quote": "מישהו חיבר את הצ'קאאוט החדש להשלמה אוטומטית של כתובות ל- gov IL ולא לגוגל maps?"
+      },
+      {
+        "category": "Shopify Returns & Exchanges",
+        "problem_statement": "Users are looking for an effective solution to manage product exchanges and returns on Shopify, suggesting current methods or tools are insufficient.",
+        "severity_signal": "Medium",
+        "original_quote": "מישהו מכיר פתרון טוב להחלפות והחזרות בשופיפיי?"
+      },
+      {
+        "category": "Order Management",
+        "problem_statement": "Experiencing a high rate of order cancellations shortly after purchase (within 24 hours), partial returns processed through physical stores, and delivery failures due to inability to contact customers, resulting in packages being returned to the warehouse.",
+        "severity_signal": "High",
+        "original_quote": "הרבה ביטולים סמוך למועד ההזמנה בטווח של 24 שעות החזרות חלקיות דרך רשת החנויות וכשל אספקה לא ניתן היה להשיג הלקוח והחבילה חזרה למחסן"
+      },
+      {
+        "category": "Shopify Platform Migration",
+        "problem_statement": "Users migrating from Wix to Shopify are confused about Shopify's pricing plans, which plan is suitable for their needs, and whether there are additional transaction fees charged by Shopify on top of payment gateway fees.",
+        "severity_signal": "Medium",
+        "original_quote": "אבל לא הבנתי כל כך אם זה שווה מבחינת התוכניות בשופיפיי ומה מתאים לי. גם לא הבנתי אם יש אקסטרה תשלום לשופיפיי על כל הזמנה בנוסף לחברת סליקה שאני מחברת לאתר?"
+      },
+      {
+        "category": "Legal",
+        "problem_statement": "Users are concerned about potential legal repercussions (e.g., lawsuits) after sending a newsletter and receiving an unusual or threatening response from a subscriber.",
+        "severity_signal": "High",
+        "original_quote": "שלחתי ניוזלטר למנויים וקיבלתי תגובה דיי הזויה .. אני רוצה לבדוק עם עוד שחלילה אין שום סיבה לתביעה או מדהו בסגנון"
+      },
+      {
+        "category": "Logistics Cost Management",
+        "problem_statement": "Users are looking for alternative logistics providers to reduce their per-delivery costs, as their current provider (HFD) is perceived as too expensive (paying 35 NIS per delivery excluding VAT).",
+        "severity_signal": "Medium",
+        "original_quote": "אני מחפש לשלם פחות פר משלוח, יש הצעות? כיום משלם 35 לא כולל מע\"מ"
+      }
+    ],
+    "55": [
+      {
+        "category": "Customer Data Management",
+        "problem_statement": "Difficulty in managing customer data when a customer uses multiple email addresses and phone numbers, leading to confusion and complaints about unwanted communications.",
+        "severity_signal": "Medium",
+        "original_quote": "במכתב התראה הוא התלונן גם על מייל וגם על SMS ובנספח הוא צירף צילום מסך של המייל אבל לא היה אפשר לראות את הכתובת של המייל. ... העיינין שהוא נרשם עם שתי יוזרים שונים שלא משוייכים אחד לשני גם פלאשי לא יכולים לקשר בינהם... שתי כתובות מייל שונות כשאחת מהן משוייכת גם למספר טלפון... ועשה סלט במכתב התראה שלו...."
+      },
+      {
+        "category": "Fraud Prevention",
+        "problem_statement": "Difficulty in linking multiple customer profiles (email/phone) that are not automatically associated, making it hard to manage communication preferences and prevent abuse of promotions.",
+        "severity_signal": "Medium",
+        "original_quote": "העיינין שהוא נרשם עם שתי יוזרים שונים שלא משוייכים אחד לשני גם פלאשי לא יכולים לקשר בינהם... שתי כתובות מייל שונות כשאחת מהן משוייכת גם למספר טלפון... לדעתי הוא התכוון להשתמש פעמיים בהנחה להרשמת מועדון לקוחות..."
+      },
+      {
+        "category": "Fraud Prevention",
+        "problem_statement": "Frustration with customers who attempt to exploit system loopholes or promotions, leading to a desire for legal recourse.",
+        "severity_signal": "High",
+        "original_quote": "צריך לתבוע חזרה כאלה על נוכלות"
+      },
+      {
+        "category": "Marketing Analytics",
+        "problem_statement": "Closed marketing systems lack comprehensive user ID tracking and conversion value attribution across different channels (email, WhatsApp, phone, messenger), preventing effective campaign optimization due to data silos and lack of data feedback to marketing platforms.",
+        "severity_signal": "High",
+        "original_quote": "במערכת סגורה אין לך user id או ערך המרה לכל הפלואו של היוזר. ... המערכות הסגורות שאלוהים יודע למה בנו אותם ככה, לא מחזירות את הדאטא חזרה, ואז הקמפיינים לא יודעים מה נעשה בחנות, ואז אתה סוג של יורה באוויר..."
+      },
+      {
+        "category": "Marketing Analytics",
+        "problem_statement": "E-commerce store owners are often unaware of the critical problem of data silos in closed marketing systems, which severely impacts their ability to optimize campaigns and understand customer journeys.",
+        "severity_signal": "High",
+        "original_quote": "זו הבעיה הכי כואבת שקיימת לכל בעל חנות איקומרס שלא מוכר בעיקר ישירות ורובם לא יודעים את זה!!!"
+      },
+      {
+        "category": "Tool Complaint",
+        "problem_statement": "Specific complaint about 'Linnet' (לינט) as a 'closed system' that does not provide necessary data feedback for marketing optimization.",
+        "severity_signal": "High",
+        "original_quote": "והשם של הנבלות האלה"
+      },
+      {
+        "category": "Customer Service",
+        "problem_statement": "Poor customer service from providers of 'closed systems,' making it difficult to resolve issues or explain needs.",
+        "severity_signal": "Medium",
+        "original_quote": "וגם שירות לקוחות שבהצלחה להסביר להם"
+      },
+      {
+        "category": "Tool Complaint",
+        "problem_statement": "Many e-commerce stores continue to use outdated and irrelevant 'closed systems' that do not meet their actual business needs, hindering their growth.",
+        "severity_signal": "Medium",
+        "original_quote": "אלו מערכות שלא מבינות את הצרכים האמיתיים של חנויות והן ייכחדו בקרוב כי הן כבר לא רלוונטיות, למרות שאני רואה שנשארים שנים עם אותן מערכות חלודות"
+      },
+      {
+        "category": "Data Management",
+        "problem_statement": "A fundamental requirement for any system is easy and convenient access to all data, as the data belongs to the business.",
+        "severity_signal": "Medium",
+        "original_quote": "הדרישה הראשונה שלי בכל מערכת, לא משנה לאיזה מחלקה אצלנו, זה גישה *קלה* ונוחה לכל הנתונים *כי הם שלי*."
+      },
+      {
+        "category": "Business Growth",
+        "problem_statement": "Businesses are hitting a 'glass ceiling' in growth because closed systems prevent them from having a clear understanding of their sales data and customer journey, especially for sales originating from phone or WhatsApp, making campaign optimization impossible.",
+        "severity_signal": "High",
+        "original_quote": "הם תקועים בתקרת זכוכית בגלל שאין דאטא ורוב העסקאות שלהם מהטלפון והוואטסאפ וגם אם לא זו הסיבה, אין לאף חנות עומדן על מה נעשה באמת ומאיפה ובטח ובטח לא לקמפיינים אם אין דאטא שחוזרת חזרה לקמפיינים"
+      },
+      {
+        "category": "Data Management",
+        "problem_statement": "Any system that does not return data that rightfully belongs to the store is a serious problem.",
+        "severity_signal": "High",
+        "original_quote": "כל מה שלא מחזיר תמידע ששייך בלאו הכי לחנות זו בעיה רצינית"
+      },
+      {
+        "category": "Order Management",
+        "problem_statement": "Basic order management features in WooCommerce may not be sufficient, leading to a need for more advanced order management systems.",
+        "severity_signal": "Low",
+        "original_quote": "אתם יכולים להרחיב מה הערך שיש במערכת ניהול הזמנות מעבר לניהול ההזמנות הבסיסי שיש בווקומרס?"
+      },
+      {
+        "category": "Logistics",
+        "problem_statement": "Anxiety and stress related to package deliveries, which is alleviated by good communication from the shipping company (implying that lack of communication is a problem).",
+        "severity_signal": "Medium",
+        "original_quote": "זה מוריד לי מפלס החרדה גם ככה יש מלא חרדה במדינה הזו"
+      },
+      {
+        "category": "Logistics",
+        "problem_statement": "Issues arise when customers fail to pick up orders from collection points within the allotted time, leading to questions about who bears the cost of returns and re-shipping, and potential disputes with customers.",
+        "severity_signal": "High",
+        "original_quote": "משלוחים לנקודת איסוף, מה קורה עם הלקוח לא בא לאסוף...הם לא מחזיקים סחורה יותר מ 5 ימים...מה קורה אח\"כ? מי מחזיר, מי משלם על ההחזרה ועל משלוח נוסף אם הלקוח נזכר בהזמנה? האם זה יוצר מריבות עם לקוחות?"
+      },
+      {
+        "category": "Customer Service",
+        "problem_statement": "Frequent disputes with customers regarding returned packages due to non-pickup, requiring clear terms and conditions to ensure customers pay for return shipping.",
+        "severity_signal": "Medium",
+        "original_quote": "חברת המשלוחים מחייבת אותך בהחזרה. ... לא מעט פעמים יש לי דין ודברים עם לקוחות"
+      },
+      {
+        "category": "Customer Communication",
+        "problem_statement": "Customers frequently claim they did not receive pickup notifications, leading to uncollected packages and disputes, despite shipping companies confirming messages were sent. This necessitates manual daily checks and re-sending notifications.",
+        "severity_signal": "High",
+        "original_quote": "אני נתקלת בבעיה שהלקוחות תמיד אומרים שלא קיבלו את ההודעה ולכן לא הלכו לקחת ואז בשיחה עם החברה הם מראים את ההודעות שנשלחו ושהלקוח טוען שלא קיבל."
+      }
+    ],
+    "210": [
+      {
+        "category": "Sourcing/Suppliers",
+        "problem_statement": "Users are looking for local suppliers in Israel for specific packaging materials (craft paper tape) to avoid expensive international orders from platforms like Amazon.",
+        "severity_signal": "Medium",
+        "original_quote": "למנוע לי הזמנה סופר יקרה מאמזון ולהמליץ לי על חנות בארץ שמוכרת גלילי נייר דבק קראפט?"
+      },
+      {
+        "category": "Legal/Compliance",
+        "problem_statement": "Users need recommendations for lawyers or experts who understand the amendment to the Privacy Protection Law and can help with writing regulations/terms and conditions.",
+        "severity_signal": "Medium",
+        "original_quote": "אשמח להמלצה לעו\"ד או מומחה שמבין לגבי התיקון לחוק הגנת הפרטיות"
+      },
+      {
+        "category": "Legal/Compliance",
+        "problem_statement": "Users lack a clear understanding or a summarized explanation of the new Privacy Protection Law.",
+        "severity_signal": "Medium",
+        "original_quote": "מה החוק הפרטיות החדש מתייחס? מישהו יכול לאמל״ק?"
+      },
+      {
+        "category": "Marketing/Customer Communication",
+        "problem_statement": "Users are seeking insights and best practices for choosing between SMS and WhatsApp for marketing to customers whose details are available from Shopify.",
+        "severity_signal": "Low",
+        "original_quote": "שאלה בנוגע לפירסום ללקוחות שיש לי את הפרטים שלהם מהשופיפי SMS מול ווטסאפ"
+      },
+      {
+        "category": "Marketing/SEO",
+        "problem_statement": "Users are struggling to find an excellent and reliable SEO-GEO company based on positive past experiences.",
+        "severity_signal": "Medium",
+        "original_quote": "שוב מחפשת המלצה לחברת SEO- GEO לא פחות ממעולה."
+      },
+      {
+        "category": "Payments/Finance",
+        "problem_statement": "Users are uncertain if their current credit card clearing fees are competitive and are looking for benchmarks to negotiate better rates.",
+        "severity_signal": "Medium",
+        "original_quote": "אני רוצה לדעת אם אני משלמת סבבה או שיש מקום להתווכח איתם עוד קצת"
+      },
+      {
+        "category": "Marketing/Analytics",
+        "problem_statement": "Users are seeking average email marketing conversion rates to benchmark their own performance.",
+        "severity_signal": "Low",
+        "original_quote": "מה האחוז המרה שלכם באימייל מרקטינג בממוצע?"
+      },
+      {
+        "category": "Marketing/Advertising",
+        "problem_statement": "Users need recommendations for an expert specializing in Google Ads and Shopping to maximize conversions and optimize campaigns.",
+        "severity_signal": "Medium",
+        "original_quote": "המלצות לתותח שמתמחה בגוגל ads ושופינג למיקסום המרות ואופטימיזציית קמפיינים?"
+      },
+      {
+        "category": "Marketing/Influencer Marketing",
+        "problem_statement": "Users find it difficult to identify influencers willing to collaborate for product-only compensation (gift packages) rather than monetary payment.",
+        "severity_signal": "High",
+        "original_quote": "אשמח להמלצה על משפיעניות שמוכנות לשת\"פ תמורת שליחת מארז מתנה ללא תשלום כספי"
+      },
+      {
+        "category": "Marketing/Influencer Marketing",
+        "problem_statement": "There is a perception that it is nearly impossible to find influencers willing to work for product-only compensation.",
+        "severity_signal": "High",
+        "original_quote": "אין כבר צדיקות כאלו.."
+      },
+      {
+        "category": "Marketing/CRM",
+        "problem_statement": "Users are looking for an expert in HubSpot Marketing for client work, indicating a need for specialized knowledge or external support.",
+        "severity_signal": "Medium",
+        "original_quote": "מחפש מומחה בעבודה עם האב ספוט מרקטינג"
+      },
+      {
+        "category": "Payments",
+        "problem_statement": "Users are unsure about the compatibility of payment gateways (e.g., PayPlus) with specific credit card types (e.g., Diners).",
+        "severity_signal": "Low",
+        "original_quote": "פייפלוס מקבלים דיינרס?"
+      },
+      {
+        "category": "E-commerce Platform/Wholesale",
+        "problem_statement": "Users are seeking recommendations for an effective wholesale management system.",
+        "severity_signal": "Medium",
+        "original_quote": "איזה מערכת wholesale ממליצים?"
+      },
+      {
+        "category": "Website Performance/Hosting",
+        "problem_statement": "Users are experiencing occasional website slowness issues with Cloudways hosting for WordPress sites, even with optimization tools like WP Rocket.",
+        "severity_signal": "High",
+        "original_quote": "אני בקלאודווייז ויש בעיות איטיות לפעמים..."
+      },
+      {
+        "category": "Logistics/Shipping",
+        "problem_statement": "Users are struggling to find a reliable and good delivery company, especially for heavy/bulky items like pet food, with many companies being unsuitable or having a poor reputation.",
+        "severity_signal": "High",
+        "original_quote": "הוא מחפש חברת משלוחים טובה, יש למישהו המלצה על סמך נסיון?"
+      },
+      {
+        "category": "Logistics/Shipping",
+        "problem_statement": "Many delivery companies are not suitable for heavy items, and a known company (Cheetah) that handles heavy items has a poor reputation.",
+        "severity_signal": "High",
+        "original_quote": "בגלל שזה משקלים כבדים הרבה חברות משלוחים לא רלוונטיות. אני יודעת שצ'יטה עובדים גם עם משקלים כבדים אבל אין להם את השם הכי טוב פה בקבוצה בוא נגיד."
+      },
+      {
+        "category": "Logistics/Shipping",
+        "problem_statement": "Users are dissatisfied with their current delivery company and are seeking recommendations for reliable alternatives that offer both home delivery and pickup point options.",
+        "severity_signal": "High",
+        "original_quote": "לא מרוצה מהחברת משלוח שלי , עם מי אתם עובדים ומרוצים? גם משלוח לבית וגם לנקודת חלוקה.."
+      },
+      {
+        "category": "Marketing/Influencer Marketing",
+        "problem_statement": "Users are looking for a company that specializes in managing influencer collaborations, particularly for product-only compensation, for specific product types.",
+        "severity_signal": "Medium",
+        "original_quote": "יש חברה שעושה את זה? אשמח לשמות. מדובר במארזי מתוקים"
+      }
+    ],
+    "179": [
+      {
+        "category": "E-commerce Platform Integration",
+        "problem_statement": "There is a lack of native payment gateway integration options with Shopify.",
+        "severity_signal": "Medium",
+        "original_quote": "הבעיה שאין נייטיב עם שופיפיי"
+      },
+      {
+        "category": "Conversion Rate Optimization",
+        "problem_statement": "Concerns that using non-native payment solutions will negatively impact conversion rates.",
+        "severity_signal": "Medium",
+        "original_quote": "אני מפחד שיוריד אחוזי המרה"
+      },
+      {
+        "category": "Conversion Rate Optimization",
+        "problem_statement": "Merchants are hesitant to offer popular payment methods like Apple Pay and Google Pay due to concerns about conversion rates with non-native integrations.",
+        "severity_signal": "Medium",
+        "original_quote": "לא מציע אפל פיי וגוגל פיי בגלל זה בכלל"
+      },
+      {
+        "category": "Payments",
+        "problem_statement": "Frustration with the ongoing costs and reliance on Stripe as a payment processor.",
+        "severity_signal": "Medium",
+        "original_quote": "עד מתי וכמה עוד סטרייפ"
+      },
+      {
+        "category": "Multi-store Management",
+        "problem_statement": "Difficulty integrating external payment processors for international stores, especially when it adds a visible external brand name (e.g., Payplus) which can be problematic.",
+        "severity_signal": "Medium",
+        "original_quote": "הבעיה שאני גם בשני אתרים והראשי לחול, לפי הבנתי להוסיף סולק חיצוני אם כותרת Payplus למשל בעייתי"
+      },
+      {
+        "category": "Vendor Trust",
+        "problem_statement": "Distrust towards new payment processors offering low initial rates, as past experiences show they tend to increase fees (e.g., per-transaction fees, minimums) once they gain market share.",
+        "severity_signal": "High",
+        "original_quote": "השאלה מה הקאצ'. הם סולק חדש אז אולי מנסים לצבור לקוחות.. גם משולם עשו את זה ואחרי שגדלו דחפו שקל לעסקה ועמלות מינימום ומשיכה."
+      },
+      {
+        "category": "Cost Management",
+        "problem_statement": "Difficulty avoiding foreign currency deposit fees when processing tourist credit cards with Max.",
+        "severity_signal": "Medium",
+        "original_quote": "האם מישהו סולק עם מקס כרטיסי תייר והצליח להיפטר מהעמלת הפקדת מט״ח?"
+      },
+      {
+        "category": "Cost Management",
+        "problem_statement": "Foreign currency deposit fees are a significant financial burden for merchants.",
+        "severity_signal": "High",
+        "original_quote": "זה קילר"
+      },
+      {
+        "category": "Onboarding",
+        "problem_statement": "Payment processors have a difficult, complex, and time-consuming onboarding process with poor customer service, leading to merchants abandoning the setup.",
+        "severity_signal": "High",
+        "original_quote": "אני בעבר ניסיתי להתחבר אליהם, זה היה פשוט סיוט מורכב ומסובך שאחרי חודש שהם מעבירים אותי מאחד לשני ומבקשים ממני די לעשות הכל בעצמי פשוט ויתרתי"
+      },
+      {
+        "category": "Cost Management",
+        "problem_statement": "Payment processors unilaterally change contract terms and add hidden fees (e.g., 1 NIS per transaction) to existing agreements without clear communication.",
+        "severity_signal": "High",
+        "original_quote": "אני איתם מ2021 והוסיפו לי אותו מסלול שהיה לי אבל הוסיפו את השקל לכל עסקה"
+      },
+      {
+        "category": "Billing Transparency",
+        "problem_statement": "Lack of transparency in billing, with new fees hidden in small print on invoices, making it difficult for merchants to notice changes until much later.",
+        "severity_signal": "High",
+        "original_quote": "האמת לא ידעתי בהתחלה מסתבר שזה היה באיזה שורה קטנה בחשבונית שלא שמתי לב אליה רק בדיעבד קלטתי את זה"
+      },
+      {
+        "category": "Cash Flow Management",
+        "problem_statement": "Payment processors' delayed payout schedules (e.g., 10th of the month) cause severe cash flow issues for businesses needing to pay employees earlier (e.g., by the 9th), sometimes forcing them to take loans.",
+        "severity_signal": "High",
+        "original_quote": "אני לא סובל חברות שמשלמות ב10 בחודש, הייתי לוקח הלוואה כל חודש בשביל יום אחד, אבסורד"
+      },
+      {
+        "category": "Cash Flow Management",
+        "problem_statement": "Payment processors offer early payout options only for a fee, with limitations, and for only part of the amount, while competitors offer full, earlier payouts without extra charges or 'tricks'.",
+        "severity_signal": "Medium",
+        "original_quote": "הם יצאו עם תכנית בעלות נוספת להקדים תשלום, אבל זה רק חלק מהסכום בכל מיני הגבלות ורק דרך הפלטפורמה שלהם וכאמור בתוספת תשלום ... אני אישית לא אהבתי"
+      },
+      {
+        "category": "Billing Transparency",
+        "problem_statement": "Payment processors use deceptive calculation methods, lack transparency, and make it difficult for merchants to understand fees, often treating invoice delivery as a favor.",
+        "severity_signal": "High",
+        "original_quote": "וזה מאוד נכון שכל אחד מנסה לגזור איזה אחוזון, על הגב שחנו ואנחנו צריכים להתמודד עם הקושי להבין את שיטות החישוב הערמומיות שלהם וחוסר השקיפות. ובסוף עושים טובה אם שולחים לך חשבונית ."
+      },
+      {
+        "category": "Cost Management",
+        "problem_statement": "Payment processors impose high, fixed monthly fees (e.g., 250 NIS) regardless of transaction volume, which is seen as deceptive and exploitative, especially when they advertise low percentage fees.",
+        "severity_signal": "High",
+        "original_quote": "250 ש\"ח לחודש בלי קשר למחזור??? זה פשוט לעבוד על אנשים.. להתהדר בעמלה נמוכה ואז לדחוף עמלה מטורפת בלי קשר למחזור שאף אחד אחר לא גובה."
+      },
+      {
+        "category": "Communication Tools",
+        "problem_statement": "Experiencing a bug or malfunction with WhatsApp Business.",
+        "severity_signal": "Medium",
+        "original_quote": "למישהו יש גם תקלה בווצאפ ביזנס או שזה רק אצלי לא עובד?"
+      },
+      {
+        "category": "SEO",
+        "problem_statement": "Concern about the negative impact on organic search ranking when changing a website's domain.",
+        "severity_signal": "Medium",
+        "original_quote": "האם אפשרי להחליף דומיין לאתר בלי לפגוע בקידום האורגני בגוגל?"
+      },
+      {
+        "category": "SEO",
+        "problem_statement": "Domain changes consistently lead to a negative impact on SEO, based on multiple past experiences.",
+        "severity_signal": "Medium",
+        "original_quote": "ב5 מעברים שהיתי חלק אינטגרלי בהם, זה ניפגע."
+      },
+      {
+        "category": "SEO",
+        "problem_statement": "It is impossible to change a domain without negatively affecting SEO, as SEO is inherently tied to the domain itself.",
+        "severity_signal": "Medium",
+        "original_quote": "אי אפשר. תמיד זה נפגע. הקידום הוא של הדומיין. לא של האתר"
+      }
+    ],
+    "56": [
+      {
+        "category": "Logistics",
+        "problem_statement": "Customers failing to collect orders from pickup points within the allotted time results in returned shipments, incurring additional costs for return shipping and potential re-delivery, and often leads to disputes with customers.",
+        "severity_signal": "High",
+        "original_quote": "משלוחים לנקודת איסוף, מה קורה עם הלקוח לא בא לאסוף...הם לא מחזיקים סחורה יותר מ 5 ימים...מה קורה אח\"כ? מי מחזיר, מי משלם על ההחזרה ועל משלוח נוסף אם הלקוח נזכר בהזמנה? האם זה יוצר מריבות עם לקוחות?"
+      },
+      {
+        "category": "Returns",
+        "problem_statement": "Shipping companies charge for returned packages when customers fail to pick them up, leading to frequent arguments and negotiations with customers regarding payment for return shipping.",
+        "severity_signal": "High",
+        "original_quote": "חברת המשלוחים מחייבת אותך בהחזרה. לא מעט פעמים יש לי דין ודברים עם לקוחות"
+      },
+      {
+        "category": "Customer Service",
+        "problem_statement": "Customers frequently claim they did not receive notifications for package pickup, resulting in uncollected orders and returns, forcing store managers to manually check shipping company websites daily for delays and send additional reminders.",
+        "severity_signal": "High",
+        "original_quote": "אני נתקלת בבעיה שהלקוחות תמיד אומרים שלא קיבלו את ההודעה ולכן לא הלכו לקחת ואז בשיחה עם החברה הם מראים את ההודעות שנשלחו ושהלקוח טוען שלא קיבל."
+      },
+      {
+        "category": "Inventory Management",
+        "problem_statement": "A significant number of products are frequently out of stock, sometimes exceeding the number of available items, raising concerns about how to manage these product pages without negatively impacting organic search rankings if they are removed.",
+        "severity_signal": "Medium",
+        "original_quote": "מה אתם עושים כשכמות המוצרים שאזלו במלאי גדלה? לפעמים בכמות שעולה על אלה שכן במלאי, האם הורדת מוצרים שאזלו במלאי פוגעת בקידום?"
+      },
+      {
+        "category": "Order Management",
+        "problem_statement": "There is no single system to consolidate and manage orders received both through the e-commerce website and manually, leading to synchronization problems and challenges in maintaining accurate delivery timelines.",
+        "severity_signal": "High",
+        "original_quote": "אם יש לי הזמנות של לקוחות דרך האתר וגם דרכי באופן אישי שזה לא מסונכרן עם האתר, האם יש איזו מערכת שיכולה להכיל הכל? שאליה עוברות ההזמנות של האתר ושם אני יכולה לעדכן הזמנות שאני מקבלת במקביל? חשוב לי שזה יהיה לפי הסדר בזמנים כי יש זמני אספקה.."
+      },
+      {
+        "category": "Platform Costs",
+        "problem_statement": "Shopify charges a commission on all orders processed through its platform, which adds to operational costs.",
+        "severity_signal": "Low",
+        "original_quote": "חשוב לדעת שעל כל ההזמנות שיופיעו בשופפיי תיגבה עמלה"
+      },
+      {
+        "category": "Operations",
+        "problem_statement": "The complexity of managing orders from both the website and manual channels is so significant that it led to the decision to stop accepting manual orders altogether.",
+        "severity_signal": "High",
+        "original_quote": "מניסיון , אני הפסקתי לקבל כאלה הזמנות בגלל המורכבות של לנהל את זה"
+      },
+      {
+        "category": "Marketing",
+        "problem_statement": "There is a sharp decline in advertising reach and exposure, leading to fewer leads and purchases.",
+        "severity_signal": "High",
+        "original_quote": "מה אתם עושים בתקופה שיש ירידה חדה בפרסום ובחשיפה?"
+      },
+      {
+        "category": "Marketing",
+        "problem_statement": "Campaigns for nutrition supplements have recently experienced a decline in exposure, leads, and purchases, particularly affecting engagement and lead generation campaigns.",
+        "severity_signal": "High",
+        "original_quote": "מרגיש שבשבוע שבועיים האחרונים פחות חשיפות פחות לידים וגם פחות רכישות אבל אותי בעיקר מעניין הקמפיין מעורבות/לידים"
+      },
+      {
+        "category": "Payments",
+        "problem_statement": "There is a significant risk of fraudulent bank transfers, where customers provide fake payment confirmations for large orders, leading to potential financial loss if products are shipped before actual payment is verified.",
+        "severity_signal": "High",
+        "original_quote": "מפחד שההעברה תהיה פיקטיבית, כבר קרו לי מקרים כאלה בעבר שזייפו אסמכתא ולא באמת עבר הכסף"
+      },
+      {
+        "category": "Promotions",
+        "problem_statement": "Gift cards purchased with a discount code can result in double discounting if the recipient also applies a discount code during redemption, leading to unintended financial losses for the business.",
+        "severity_signal": "High",
+        "original_quote": "מי שרכשה אותו השתמשה בקוד קופון ואז קיבלה 400 ש״ח באתר ושילמה 360 ואז אם מי שגם תממש אותו תשתמש בקוד קופון זה בעצם כפל וזה דופק אותי קצת"
+      }
+    ],
+    "180": [
+      {
+        "category": "SEO / Website Migration",
+        "problem_statement": "Website SEO and rankings are negatively impacted during domain migrations.",
+        "severity_signal": "Medium",
+        "original_quote": "ב5 מעברים שהיתי חלק אינטגרלי בהם, זה ניפגע."
+      },
+      {
+        "category": "Order Management / Access Control",
+        "problem_statement": "Store managers need a secure way to share order information with fulfillment teams without exposing sensitive financial and administrative data from the main e-commerce platform (WordPress/WooCommerce).",
+        "severity_signal": "Medium",
+        "original_quote": "מכירים מערכת שמומלץ להעביר דרכה הזמנות לצוות שמכין את ההזמנות בלי שיהיה חשוף לכל המערכת ניהול והכספים של האתר שלי?"
+      },
+      {
+        "category": "Inventory Management / POS Integration",
+        "problem_statement": "Importers with physical fashion stores need a software/app to generate barcode labels for products (including price, inventory, and supplier codes) that can be read by both their POS system and e-commerce website.",
+        "severity_signal": "Medium",
+        "original_quote": "עם איזו תוכנה/ אפליקציה אתם מפיקים מדבקות ברקוד מחיר, מלאי, למוצרים ושישמרו על הקוד של המוצר מהספק ושהקופה והאתר יקראו אותם?"
+      },
+      {
+        "category": "Analytics / Data Integration",
+        "problem_statement": "Shopify's native analytics reports are inadequate, and there's a need for a comprehensive analytics tool that integrates data from various sources (Shopify, GA4, Search Console) and presents it in a user-friendly, low-setup dashboard.",
+        "severity_signal": "High",
+        "original_quote": "לדעתי הreports של שופיפיי ממש לא מספק. מחפש כלי שמשלב דאטה מכל המקורות הרלוונטיים כגון GA4, search console, דאטה משופיפיי ומציג את הכל באופן נוח שלא דורש יותר מדי setup."
+      },
+      {
+        "category": "E-commerce Platform / Integrations",
+        "problem_statement": "The Google plugin for e-commerce platforms (likely WooCommerce) is often problematic due to API connection issues, and manual integration is too time-consuming.",
+        "severity_signal": "High",
+        "original_quote": "התוסף של גוגל די מיותר, כי הוא מחבר לך את הכל בחיבור של api ורוב הזמן הוא עושה בעיות, ואם בא לך לחבר משהו ידני, אז חבל לך על הזמן"
+      },
+      {
+        "category": "Product Management / Integrations",
+        "problem_statement": "The Google plugin is ineffective and problematic for uploading products to Google Merchant Center.",
+        "severity_signal": "High",
+        "original_quote": "כל מה שקשור להעלאת מוצרים הוא פח"
+      },
+      {
+        "category": "Analytics / Data Accuracy",
+        "problem_statement": "Shopify's analytics reports often include bot traffic, leading to inaccurate data regarding actual customer sessions.",
+        "severity_signal": "Medium",
+        "original_quote": "גם הדוחות של שופיפיי משלבים הרבה פעמים בוטים ועוד כל מיני דברים שהם לא סשנים של לקוחות."
+      },
+      {
+        "category": "Analytics / Data Visualization",
+        "problem_statement": "The combined data from Shopify and Google Analytics is not displayed effectively, particularly when trying to integrate information from multiple sources.",
+        "severity_signal": "High",
+        "original_quote": "בנוסף האנליטיקס של שופיפיי ושל לא מוצגים בצורה טובה וכשמדובר על לשלב הכל ביחד ממגוון מקורות שתי התוכנות לא מספיק טובות."
+      },
+      {
+        "category": "Shopify Bugs / Analytics",
+        "problem_statement": "Even with the new version of Shopify reports, there are bugs when attempting to display a large volume of data in a single report.",
+        "severity_signal": "High",
+        "original_quote": "בשופיפיי למשל גם אחרי הגרסא החדשה של הדוחות יש באגים ברגע שרוצים להציג יותר מדי דאטה בדוח אחד."
+      },
+      {
+        "category": "Analytics / User Experience",
+        "problem_statement": "Google Analytics 4 (GA4) presents smart insights in a way that is complicated and difficult for users to understand.",
+        "severity_signal": "Medium",
+        "original_quote": "גם הדרך הצגה מסובכת ליוזר."
+      },
+      {
+        "category": "Analytics",
+        "problem_statement": "Existing analytics tools (Shopify, GA4, Clarity) are individually insufficient for comprehensive data analysis.",
+        "severity_signal": "High",
+        "original_quote": "בכל מקרה לדעתי אף אחד מהכלים לא מספק"
+      },
+      {
+        "category": "Analytics / Workflow",
+        "problem_statement": "It is inconvenient and inefficient to constantly switch between multiple separate analytics sources to gather insights.",
+        "severity_signal": "High",
+        "original_quote": "השאלה אם נוח לך כל פעם להסתכל בשתי המקורות בנפרד."
+      }
+    ],
+    "87": [
+      {
+        "category": "Legal",
+        "problem_statement": "User is concerned about potential legal action after sending a newsletter and receiving a strange response, seeking legal advice.",
+        "severity_signal": "Medium",
+        "original_quote": "שלחתי ניוזלטר למנויים וקיבלתי תגובה דיי הזויה .. אני רוצה לבדוק עם עוד שחלילה אין שום סיבה לתביעה או מדהו בסגנון"
+      },
+      {
+        "category": "Logistics",
+        "problem_statement": "Users are looking for more affordable shipping solutions as their current provider (HFD) is too expensive (35 NIS per shipment excluding VAT).",
+        "severity_signal": "High",
+        "original_quote": "אני מחפש לשלם פחות פר משלוח, יש הצעות? כיום משלם 35 לא כולל מע\"מ"
+      },
+      {
+        "category": "Operations",
+        "problem_statement": "User needs a solution for remotely sending print commands to a label printer, especially from a distant location (e.g., another city).",
+        "severity_signal": "Medium",
+        "original_quote": "יש פתרון לשליחת פקודה ממיקום ממש רחוק 😅 נגיד מעיר אחרת"
+      },
+      {
+        "category": "Email Marketing Tool",
+        "problem_statement": "User is experiencing multiple unresolved issues with MailPoet for newsletter subscriptions.",
+        "severity_signal": "Medium",
+        "original_quote": "יש לי כמה תקלות ולא מצליחה להבין למה"
+      },
+      {
+        "category": "Customer Experience",
+        "problem_statement": "E-commerce stores, even large ones, have unacceptably long shipping times (up to 14 business days) and poor customer service (no phone support, slow email responses), which negatively impacts customer expectations and trust.",
+        "severity_signal": "High",
+        "original_quote": "הזמנתי לפני שבוע וחצי הזמנה מאתר לבגדי ילדים שלא אציין את שמו שלא הגיעה עדין לאחר בדיקה במייל ראיתי שהם מציינים- שליח עד הבית (עד 14 ימי עסקים). *האמת! הלם!* בוודאות לא הייתי עושה את ההזמנה אם הייתי רואה את האינפורמציה הזו לפני."
+      },
+      {
+        "category": "Customer Service Tools",
+        "problem_statement": "Users are looking for free FAQ bots to improve customer service efficiency.",
+        "severity_signal": "Low",
+        "original_quote": "האם קיימים בוטים חינמיים של FAQ (למשל)?"
+      },
+      {
+        "category": "Logistics",
+        "problem_statement": "Unreliable delivery services from shipping companies like Cheetah lead to significant losses, including lost sales, customer dissatisfaction, and damaged returned goods.",
+        "severity_signal": "High",
+        "original_quote": "זה מאוד בעייתי ,ולא מעט מעסיק אותנו עניין האספקה ללקוח"
+      },
+      {
+        "category": "Logistics",
+        "problem_statement": "E-commerce managers lack control over and ability to shorten shipping times once packages are handed over to the shipping company.",
+        "severity_signal": "High",
+        "original_quote": "איך מקצרים זמני שילוח לאחר שהחבילה עברה לחברת השילוח?"
+      },
+      {
+        "category": "Logistics",
+        "problem_statement": "The high cost of reliable shipping companies (like UPS) makes them unaffordable for businesses with high volume or lower profit margins, forcing them to use less reliable, cheaper options.",
+        "severity_signal": "High",
+        "original_quote": "אני שולח דרך חברות רגילות כי נפח החבילות ורמת הרווחיות לא מאפשרת לי לשלוח בחברה כמו ups"
+      },
+      {
+        "category": "Logistics",
+        "problem_statement": "Standard shipping companies (Katz, Cheetah, Orian) consistently fail to meet stated delivery times, with delays becoming critical during peak sales periods.",
+        "severity_signal": "High",
+        "original_quote": "כולם חורגים ועל בסיס קבוע , ופיקים של המכירות שם קורות התקלות היותר קטלניות"
+      },
+      {
+        "category": "Logistics",
+        "problem_statement": "E-commerce businesses face a dilemma where high shipping costs conflict with customer expectations for free shipping, leading them to rely on mediocre shipping companies.",
+        "severity_signal": "High",
+        "original_quote": "כל נושא השילוח בארץ הוא כואב מאוד, עלויות השילוח מצד אחד מאוד יקרות, הלקוח לא רוצה לשלם על משלוח מצד שני ואנחנו נתקעים בין הפטיש לסדן עם חברות שילוח בינוניות במקרה הטוב."
+      },
+      {
+        "category": "Logistics",
+        "problem_statement": "Pickup points in Israel are managed unprofessionally, regardless of the price paid for the service.",
+        "severity_signal": "High",
+        "original_quote": "גם הנקודות איסוף בארץ מתנהלות בצורה לא מקצועית ולא משנה כמה תשלם"
+      },
+      {
+        "category": "Communication Tools",
+        "problem_statement": "WhatsApp lacks a live video demonstration feature within groups, which would be highly beneficial for providing real-time assistance and support.",
+        "severity_signal": "Medium",
+        "original_quote": "צריכים להמציא פיצ'ר לוואטסאפ לחיבור לייב וידאו בתוך קבוצה לצורך הדגמת עזרה"
+      },
+      {
+        "category": "E-commerce Operations",
+        "problem_statement": "Users need external help (company or freelancer) to efficiently upload large quantities of product data (content, images, SKUs) to their Konimbo e-commerce website.",
+        "severity_signal": "Medium",
+        "original_quote": "מכירים חברה או פרילנסר להעלות כמות של מוצרים לאתר? תוכן, תמונות, מקט.. (האתר בקונימבו)"
+      },
+      {
+        "category": "Operations",
+        "problem_statement": "A new user of a label printer is unsure how to configure it to include order details on the printed labels.",
+        "severity_signal": "Low",
+        "original_quote": "הפירוט של ההזמנה נכנס במדבקה עצמה?"
+      }
+    ],
+    "57": [
+      {
+        "category": "Payments",
+        "problem_statement": "Payment collection is not working on the e-commerce platform.",
+        "severity_signal": "High",
+        "original_quote": "הגביית תשלום לא עובד"
+      },
+      {
+        "category": "Marketing Automation",
+        "problem_statement": "Difficulty setting up WhatsApp automation for abandoned carts using Make.com.",
+        "severity_signal": "Medium",
+        "original_quote": "מישהוא יודע לעשות אוטומציה בmake שישלח ללקוח הודעת ווצאפ בנטישת עגלה?"
+      },
+      {
+        "category": "Promotions",
+        "problem_statement": "Experiencing financial loss due to double discounting when customers use a coupon to purchase a gift card and then use another coupon when redeeming the gift card.",
+        "severity_signal": "High",
+        "original_quote": "מי שרכשה אותו השתמשה בקוד קופון ואז קיבלה 400 ש״ח באתר ושילמה 360 ואז אם מי שגם תממש אותו תשתמש בקוד קופון זה בעצם כפל וזה דופק אותי קצת"
+      },
+      {
+        "category": "Promotions",
+        "problem_statement": "Unable to prevent double discounting on gift card redemptions, especially after a sale has already occurred with this issue.",
+        "severity_signal": "High",
+        "original_quote": "זהו באסה במקרה הזה כבר רכשה אז זה מאוחר מידי... יש אפשרות שבתשלום עם גיפט קארד לא יהיה כפל מהצד של המממש?"
+      },
+      {
+        "category": "Marketing Services",
+        "problem_statement": "Seeking recommendations for a photographer specializing in lifestyle photography for cosmetic products.",
+        "severity_signal": "Low",
+        "original_quote": "אשמח להמלצה על צלם/ת שמתמחים בצילומי אווירה למוצרי קוסמטיקה."
+      },
+      {
+        "category": "Security",
+        "problem_statement": "Received a suspicious copyright infringement email with an unavailable contact number, raising concerns about a potential scam.",
+        "severity_signal": "Medium",
+        "original_quote": "אם מישהו קיבל מייל על הפרת זכויות יוצרים מחברת ANMC... הטלפון שכתוב שם לא זמין. לא לפתוח."
+      },
+      {
+        "category": "Website / SEO",
+        "problem_statement": "Hebrew characters in URLs result in long, 'ugly' encoded links, which negatively impacts user experience and trust.",
+        "severity_signal": "Medium",
+        "original_quote": "אם רושמים בעברית זה עושה קישור ארוך כזה מכוער"
+      },
+      {
+        "category": "SEO",
+        "problem_statement": "Using product SKUs in URLs for cleaner links is considered less optimal for SEO.",
+        "severity_signal": "Medium",
+        "original_quote": "אני רושם את המקט. פחות טוב מבחינת SEO"
+      },
+      {
+        "category": "SEO Tools",
+        "problem_statement": "The Yoast SEO plugin constantly recommends including keywords in the URL, which conflicts with the practice of using English for cleaner URLs when the product name is in Hebrew.",
+        "severity_signal": "Medium",
+        "original_quote": "אבל התוסף של yoast רושם לי כל הזמן לרשום את המילת מפתח חח"
+      },
+      {
+        "category": "User Experience",
+        "problem_statement": "Customers are hesitant to click on encoded or 'ugly' Hebrew links when they are shared.",
+        "severity_signal": "High",
+        "original_quote": "אבל כאשר משתפים, כאמור לקוחות נרתעים מלחוץ"
+      },
+      {
+        "category": "Workflow Efficiency",
+        "problem_statement": "The workaround for cleaning Hebrew URLs (manually typing 'h' and then pasting the rest) is cumbersome and time-consuming.",
+        "severity_signal": "Medium",
+        "original_quote": "וואלה זה עבודה קצת חחחח"
+      },
+      {
+        "category": "Mobile Usability",
+        "problem_statement": "Primarily working from a mobile phone limits the applicability of desktop-based solutions for URL management.",
+        "severity_signal": "Low",
+        "original_quote": "אני עובד בעיקר מהטלפון"
+      },
+      {
+        "category": "Customer Service / Sales",
+        "problem_statement": "Needs a comprehensive solution to improve sales processes and customer service via WhatsApp, requiring integration with their website and Priority CRM.",
+        "severity_signal": "High",
+        "original_quote": "יש למישהו פתרון לשיפור תהליכי מכירה ושיפור השירות באמצעות וואצאפ? אני צריכה מערכת כזאת שתתחבר גם לאתר שלי וגם למערכת CRM (אני עובדת עם פריוריטי)"
+      },
+      {
+        "category": "Legal / Business Operations",
+        "problem_statement": "Seeking advice on product liability insurance for cosmetics, including whether it's mandatory and recommendations for insurance providers.",
+        "severity_signal": "Medium",
+        "original_quote": "אשמח להתייעץ לגבי ביטוח חבות מוצר בתחום הקוסמטיקה. האם יודעים אם אכן חייבים לעשות? ואם כן אשמח להמלצות לסוכן/חברות ביטוח שעושים זאת"
+      }
+    ],
+    "181": [
+      {
+        "category": "Data Analytics",
+        "problem_statement": "Current data analytics tools do not provide a comprehensive solution.",
+        "severity_signal": "Medium",
+        "original_quote": "בכל מקרה לדעתי אף אחד מהכלים לא מספק"
+      },
+      {
+        "category": "Data Integration",
+        "problem_statement": "It is inconvenient and inefficient to manually check data from multiple separate sources (e.g., Analytics and Shopify).",
+        "severity_signal": "Medium",
+        "original_quote": "השאלה אם נוח לך כל פעם להסתכל בשתי המקורות בנפרד."
+      },
+      {
+        "category": "Operational Efficiency",
+        "problem_statement": "Analyzing data from disparate sources consumes excessive time and resources.",
+        "severity_signal": "High",
+        "original_quote": "שלא לדבר על זמן ומשאבים"
+      },
+      {
+        "category": "Payments",
+        "problem_statement": "There is a known issue with MasterCard transaction approvals, causing some transactions to be declined.",
+        "severity_signal": "High",
+        "original_quote": "קיימת תקלה באישור עסקאות בכרטיסים ממותג MasterCard, אשר גורמת לחלק מהעסקאות להידחות."
+      },
+      {
+        "category": "Payments Integration",
+        "problem_statement": "Experiencing problems with Multipass, the company that connects to PayMe.",
+        "severity_signal": "Medium",
+        "original_quote": "מישהו חווה בעיות עם מולטיפס לאחרונה, או רק אצלי?"
+      },
+      {
+        "category": "Payments/Order Management",
+        "problem_statement": "PayMe transactions sometimes charge the voucher but fail to update the order status to 'in process,' leading to customers attempting the transaction again and incurring double charges.",
+        "severity_signal": "High",
+        "original_quote": "עסקאות ביימי לפעמים מחייבות את השובר, אבל העסקה לא עוברת ל\"בטיפול\" ונוצרים חיובים כפולים עקב לקוח שמנסה שנית."
+      },
+      {
+        "category": "Payments Integration",
+        "problem_statement": "PayMe order status was not updated due to a server update or crash at PayPlus, causing IPN failure.",
+        "severity_signal": "Medium",
+        "original_quote": "כן הייתה לנו עסקה אחת של ביימי שסטטוס ההזמנה לא עודכן. פייפלוס עדכנו שהיה להם עדכון שרת או שהשרת נפל בדיוק בזמן העסקה וה IPN לא עבר."
+      },
+      {
+        "category": "Logistics/Tool Availability",
+        "problem_statement": "Unable to access the Shipper-Global website and order deliveries due to a 'network error.'",
+        "severity_signal": "High",
+        "original_quote": "מאתמול לא יכולה להזמין משלוחים כתוב לי network error"
+      },
+      {
+        "category": "Logistics/Tool Availability",
+        "problem_statement": "Shipper-Global is experiencing a system error, preventing users from ordering deliveries.",
+        "severity_signal": "High",
+        "original_quote": "יש תקלת מערכת מטופל בדקות אלו"
+      }
+    ],
+    "211": [
+      {
+        "category": "Logistics",
+        "problem_statement": "The user is unhappy with their current shipping company and is looking for recommendations for reliable alternatives that handle both home delivery and pickup points.",
+        "severity_signal": "Medium",
+        "original_quote": "לא מרוצה מהחברת משלוח שלי"
+      },
+      {
+        "category": "Marketing",
+        "problem_statement": "Influencer marketing requires significant resources for finding, contracting, sending products, and verifying content, making it a challenging and unpredictable task.",
+        "severity_signal": "Medium",
+        "original_quote": "זו עבודה שדורשת משאבים - לחפש, לסגור, לשלוח, לוודא שמקבלים חומרים … לכן לעיתים כדאי לקחת פונקציה שתעשה את זה עבורך"
+      },
+      {
+        "category": "Legal & Compliance",
+        "problem_statement": "There is widespread confusion and a lack of clear, practical, and consistent information regarding the specific requirements and implications of the new privacy law (Amendment 13), including whether cookie pop-ups are mandatory.",
+        "severity_signal": "High",
+        "original_quote": "בדוק שזאת השורה התחתונה? כי ממה שקראתי את לשון החוק, היה נשמע הרבה יותר אפור ואמביוולנטי? ... מה בדיוק צריך לאשר איפה זה פורסם? אשמח לקישור שאדע מה לבקש שישימו לי באתר ... לא מצאתי באף מקום באתר הסבר פרקטי ... עברתי על החוק וגם קלוד עבר על החוק, לא מצאנו דרישה של החוק להקפיץ פופ-אפ לקוקיז..."
+      },
+      {
+        "category": "Legal & Compliance",
+        "problem_statement": "Official legal documents detailing new regulations are overly verbose and complex, making it difficult for business owners to extract and understand the core requirements for compliance.",
+        "severity_signal": "High",
+        "original_quote": "קראתי את 27 העמודים שפירסם משרד המשפטים כמה פעמים- מרוב מילים קשה למצוא את העיקר"
+      },
+      {
+        "category": "Business Operations",
+        "problem_statement": "There is a strong perception that new regulations, such as the privacy law, are an additional burden designed to extract more money from businesses, primarily benefiting legal professionals, similar to past accessibility laws.",
+        "severity_signal": "High",
+        "original_quote": "שמצאו עוד דרך לחלוב אותנו ... בסופו של דבר המרוויחים העיקריים כאן הם עורכי דין. מאוד מזכיר את חוק הנגישות"
+      },
+      {
+        "category": "Data Security",
+        "problem_statement": "Amendment 13 to the Privacy Protection Law creates an ongoing, complex, and high-risk legal exposure for businesses, as they remain vulnerable to severe financial penalties and civil lawsuits in case of data breaches, even if all compliance requirements are met, and shared responsibility across all parties (owners, developers, marketers) means a failure by one puts everyone at risk.",
+        "severity_signal": "High",
+        "original_quote": "בתיקון 13 המצב מורכב בהרבה: גם אם תיישם את כל הדרישות... עדיין אתה חשוף לאיומי סייבר. ... הרשות להגנת הפרטיות יכולה להטיל עליך עיצומים כספיים כבדים , גם אם עמדת בכל ההוראות. ... כישלון של אחד מאיתנו בשרשרת וכולנו בצרות."
+      },
+      {
+        "category": "Inventory Management",
+        "problem_statement": "The user is looking for the best way to manage inventory on Shopify, integrating it automatically with warehouse stock and the physical store's point-of-sale system.",
+        "severity_signal": "Medium",
+        "original_quote": "אשמח להמלצה לניהול מלאי בצורה הכי טובה שיש בshopify בשילוב עם הסחורה במחסן + הקופה של החנות באופן אוטומטי"
+      },
+      {
+        "category": "Payments",
+        "problem_statement": "The user is having trouble requesting credit card payments or generating payment links through their accounting system (iAccount), as it only issues transaction invoices without a payment link.",
+        "severity_signal": "Medium",
+        "original_quote": "מוציא לי חשבון עסקה ללא לינק של מערכת תשלום🤨"
+      },
+      {
+        "category": "Payments",
+        "problem_statement": "The user is looking for recommendations for payment gateway providers that offer API support and competitive, affordable processing fees for their website.",
+        "severity_signal": "Medium",
+        "original_quote": "המלצות לספקי סליקה באתר עם תמיכה ב api במחירים סליקה נוחים?"
+      }
+    ],
+    "214": [
+      {
+        "category": "Legal Compliance",
+        "problem_statement": "Businesses face challenges in achieving full legal compliance with privacy regulations across various tools (measurement, forms, email marketing, CRM) and often require specialized legal consultation.",
+        "severity_signal": "Medium",
+        "original_quote": "צריך לבצע התאמה בטמעות של כלי המדידה באתר בטפסים ובעיקר ולהתייעץ עם עו״ד שמתמחה בזה ולנסח תקנון פרטיות וגם לעבור על שאר המערכות הנילוות, לדגומא אימייל מרקטיניג , CRM."
+      },
+      {
+        "category": "Legal Compliance / Risk Management",
+        "problem_statement": "Businesses are highly concerned about the risk of lawsuits and financial penalties from serial plaintiffs due to non-compliance with new privacy laws (Amendment 13), especially regarding data collection tools without proper disclosure.",
+        "severity_signal": "High",
+        "original_quote": "תיקון 13 נכנס לתוקף: 10 דק’ שמונעות כאב ראש ותביעות כספיות מתובעים סדרתיים! ... כאחד שנתבע בעבר על חוק הספאם על ידי תובע סדרתי, אני ערני הרבה יותר ומעדיף לא להכניס ראש בריא למיטה חולה. ... אתר עם טופס, פיקסל או אנליטיקס בלי גילוי מסודר = הזמנה לתובעים סדרתיים."
+      },
+      {
+        "category": "Information Reliability / Legal Compliance",
+        "problem_statement": "There is widespread misinformation and exploitation by individuals profiting from fear and confusion surrounding new privacy laws, leading businesses to adopt unnecessary or incorrect solutions.",
+        "severity_signal": "High",
+        "original_quote": "זה גם מידע לא מדויק, גם אנשים עושים כסך על משהו שראו באיזה סרטון ויראלי ובאמאמאמא שלי שאתם לא קראתם את החוק ומישהו עושה עליכם פה קופה"
+      },
+      {
+        "category": "Legal Compliance / Content Creation",
+        "problem_statement": "Businesses are creating inadequate or legally problematic privacy policies by using AI tools, copying from other sites (violating copyright and exposing them to lawsuits), or drafting incomplete policies without expert legal consultation.",
+        "severity_signal": "High",
+        "original_quote": "נתקלתי לצערי בתופעה מדאיגה: 1. אנשים שמייצרים דפי מדיניות מCHAT GPT 2. אנשים שמעתיקים (תוך עבירה על זכויות יוצרים) מאתרים אחרים את דפי המדיניות שלהם (לפעמים אפילו בלי לשנות את המידע המקורי וכן זה באמת חושף אותם לתביעות) 3. אנשים שמפאת זה שלא עבדו עם עו\"ד מומחה בתחום יצרו עצמאית דף מדיניות חסר..."
+      },
+      {
+        "category": "Legal Compliance / Risk Management",
+        "problem_statement": "Proactively announcing privacy policy updates to customers is perceived as a strategic mistake that invites scrutiny and potential lawsuits from \"exploiters\" or serial plaintiffs.",
+        "severity_signal": "Medium",
+        "original_quote": "הם עשו טעות. עכשיו יחפשו אותם"
+      },
+      {
+        "category": "Legal Compliance / Website Accessibility",
+        "problem_statement": "Confusion exists regarding the specific requirements for website accessibility compliance (e.g., Wix's built-in tools vs. external accessibility menus) and whether current solutions meet legal standards.",
+        "severity_signal": "Medium",
+        "original_quote": "השאלה אם מה ש-chatGPT אומר אכן נכון וכדאי ללכת בכיוון: The floating “menu” isn’t required by law. If you use Wix’s built-in Accessibility Wizard + enable the settings above, the site will already meet Israel’s AA accessibility requirements — for free. אשמח לשמוע אם מישהו כאן יודע 🙏"
+      },
+      {
+        "category": "CRM / Business Operations",
+        "problem_statement": "Difficulty in finding a comprehensive CRM solution that integrates with Shopify, manages leads, automates tasks, provides summaries, and centralizes communication across multiple messengers, especially one available in Israel.",
+        "severity_signal": "Medium",
+        "original_quote": "חברים, איזה CRM מומלץ? ... בגדול ניהול לידים, התממשקות עם שופיפיי, אוטומציות, סיכומים, התכתבות עם לקוחות עם כל המסנג'רים במקום אחד. קיצר משהו שאתן את כל הפתרונות ניהול לקוחות במקום אחד .... קיים משהו כזה בישראל?"
+      },
+      {
+        "category": "Marketing / Data Privacy",
+        "problem_statement": "Implementing strict consent pop-ups can lead to a significant loss of conversions (estimated 25-35%) due to users not accepting tracking, severely impacting marketing effectiveness.",
+        "severity_signal": "High",
+        "original_quote": "ולא נפרדו מ25%-35% מההמרות"
+      },
+      {
+        "category": "Legal Compliance",
+        "problem_statement": "There is confusion among businesses regarding the mandatory nature of cookie consent buttons and the legal risks associated with not having any consent mechanism at all under new privacy laws.",
+        "severity_signal": "Medium",
+        "original_quote": "אז מותר בלי כפתור או לא?"
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "payload": {
+    "export": "cart-payment-methods-transform-run",
+    "target": "cart.payment-methods.transform.run",
+    "input": {
+      "cart": {
+        "attribute": {
+          "value": "true"
+        }
+      },
+      "paymentMethods": [
+        {
+          "id": "gid://shopify/PaymentMethod/1",
+          "name": "Credit Card"
+        },
+        {
+          "id": "gid://shopify/PaymentMethod/2",
+          "name": "Gift Card"
+        },
+        {
+          "id": "gid://shopify/PaymentMethod/3",
+          "name": "כרטיס מתנה"
+        }
+      ]
+    },
+    "output": {
+      "operations": [
+        {
+          "paymentMethodHide": {
+            "paymentMethodId": "gid://shopify/PaymentMethod/2"
+          }
+        },
+        {
+          "paymentMethodHide": {
+            "paymentMethodId": "gid://shopify/PaymentMethod/3"
+          }
+        }
+      ]
+    }
+  }
+}

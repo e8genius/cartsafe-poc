@@ -1,0 +1,24 @@
+{
+  "payload": {
+    "export": "cart-payment-methods-transform-run",
+    "target": "cart.payment-methods.transform.run",
+    "input": {
+      "cart": {
+        "attribute": null
+      },
+      "paymentMethods": [
+        {
+          "id": "gid://shopify/PaymentMethod/1",
+          "name": "Credit Card"
+        },
+        {
+          "id": "gid://shopify/PaymentMethod/2",
+          "name": "Gift Card"
+        }
+      ]
+    },
+    "output": {
+      "operations": []
+    }
+  }
+}

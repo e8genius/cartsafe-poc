@@ -1,0 +1,11 @@
+query Input {
+  cart {
+    attribute(key: "_discount_active") {
+      value
+    }
+  }
+  paymentMethods {
+    id
+    name
+  }
+}

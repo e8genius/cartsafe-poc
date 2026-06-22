@@ -1,0 +1,21 @@
+api_version = "2026-04"
+
+[[extensions]]
+name = "t:name"
+handle = "payment-stacking-guard"
+type = "function"
+uid = "750c929e-433e-3fb0-d27f-4db7bbd279a995c6ed4d"
+description = "t:description"
+
+  [[extensions.targeting]]
+  target = "cart.payment-methods.transform.run"
+  input_query = "src/cart_payment_methods_transform_run.graphql"
+  export = "cart-payment-methods-transform-run"
+
+  [extensions.build]
+  command = ""
+  path = "dist/function.wasm"
+
+  [extensions.ui.paths]
+  create = "/"
+  details = "/"

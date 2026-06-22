@@ -1,0 +1,64 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+model Session {
+  id                  String    @id
+  shop                String
+  state               String
+  isOnline            Boolean   @default(false)
+  scope               String?
+  expires             DateTime?
+  accessToken         String
+  userId              BigInt?
+  firstName           String?
+  lastName            String?
+  email               String?
+  accountOwner        Boolean   @default(false)
+  locale              String?
+  collaborator        Boolean?  @default(false)
+  emailVerified       Boolean?  @default(false)
+  refreshToken        String?
+  refreshTokenExpires DateTime?
+}
+
+// Stores OAuth credentials and settings for each Shopify shop
+model Store {
+  id            String   @id @default(uuid())
+  shopDomain    String   @unique // e.g., "my-store.myshopify.com"
+  accessToken   String   // Shopify Offline Access Token
+  isActive      Boolean  @default(true)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  
+  // Relations
+  heldOrders    HeldOrder[]
+}
+
+// Log of orders caught by the webhook safety net
+model HeldOrder {
+  id             String   @id @default(uuid())
+  storeId        String
+  store          Store    @relation(fields: [storeId], references: [id], onDelete: Cascade)
+  
+  shopifyOrderId String   @unique // Shopify Order ID
+  orderName      String   // e.g., "#1001"
+  discountCode   String   // The coupon code used
+  giftCardCode   String   // The gift card code (always masked at the app layer to store only the last 4 characters, e.g. "xxxx-1234")
+  totalAmount    Float
+  savedMargin    Float    @default(0.0)
+  currency       String   // e.g., "ILS"
+  
+  status         String   @default("HELD") // HELD, RELEASED, CANCELLED
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+}

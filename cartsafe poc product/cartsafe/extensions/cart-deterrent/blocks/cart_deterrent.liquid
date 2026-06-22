@@ -1,0 +1,14 @@
+<script>
+  window.CartSafe = {
+    isActive: {{ shop.metafields.cartsafe.is_active.value | default: true }}
+  };
+</script>
+
+{% schema %}
+{
+  "name": "CartSafe Deterrent",
+  "target": "body",
+  "javascript": "cart-observer.js",
+  "settings": []
+}
+{% endschema %}
