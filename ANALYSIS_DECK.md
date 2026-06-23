@@ -128,7 +128,6 @@ when deciding whether to keep paying for the app.
 - Storefront Simulator: https://github.com/e8genius/cartsafe-simulator
 
 **What's in this repo:**
-- `/analyzer` — Python pipeline that parsed the WhatsApp chat, scored pain points, and produced the RICE matrix
 - `/cartsafe poc product` — Shopify App (Remix + Node.js + Prisma), with full PRD, architecture docs, and API flows
 
 **How to run the simulator locally (from its separate repo):**
@@ -141,11 +140,9 @@ npm run dev
 ```
 
 **Source data**
-- WhatsApp chat export used for the analysis (provided by PayMe):
+- WhatsApp chat export (provided by PayMe):
   https://drive.google.com/file/d/1vlAn8pbx4Ee5xbtmYNnmD0CQ1C5qF6Hz/view
 
 **Key docs inside the repo:**
-- Research & prioritization: [`analyzer/rice_prioritization_matrix.md`](analyzer/rice_prioritization_matrix.md)
-- Feasibility study (Shopify API limits, competitor audit): [`analyzer/cartsafe_feasibility_study.md`](analyzer/cartsafe_feasibility_study.md)
 - Product Requirements Document: [`cartsafe poc product/docs/PRD.md`](cartsafe%20poc%20product/docs/PRD.md)
 - Architecture & data model: [`cartsafe poc product/docs/ARCHITECTURE.md`](cartsafe%20poc%20product/docs/ARCHITECTURE.md)

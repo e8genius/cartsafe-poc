@@ -8,18 +8,13 @@ This repository encompasses the product development and market research lifecycl
 
 ## 📁 Repository Structure
 
-The project is structured into two main components in this repository:
+The project is structured as follows:
 
-### 1. Market Research & Problem Analysis (`/analyzer`)
-This phase involved analyzing a large dataset of WhatsApp chats from Israeli e-commerce merchants to identify their most pressing pain points. 
-- **Key Documents:** `rice_prioritization_matrix.md`, `cartsafe_research_prompt.md`, `cartsafe_feasibility_study.md`.
-- *Note: Outdated or irrelevant analysis files have been moved to `analyzer/archive` for historical reference.*
-
-### 2. Product Development (`/cartsafe poc product`)
-Based on the RICE matrix, the decision was made to build **CartSafe**. This directory contains the actual product codebase (a Shopify App) and detailed documentation.
+### 1. Product Development (`/cartsafe poc product`)
+This directory contains the actual product codebase (a Shopify App) and detailed documentation. The development scope and product decisions were guided by market research and a RICE prioritization pass.
 - **Key Documents:** [PRD.md](docs/PRD.md), [PR_FAQ.md](docs/PR_FAQ.md), [ARCHITECTURE.md](docs/ARCHITECTURE.md), [API_FLOWS.md](docs/API_FLOWS.md), [DATA_MODEL.md](docs/DATA_MODEL.md).
 
-### 3. Product Simulator (Separate Repository)
+### 2. Product Simulator (Separate Repository)
 To test and demonstrate CartSafe, a storefront simulator is hosted in a separate public repository:
 - **Repository:** [cartsafe-simulator](https://github.com/e8genius/cartsafe-simulator)
 
