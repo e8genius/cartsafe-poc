@@ -54,6 +54,6 @@ Competitor apps (e.g. PromoLock) that use native checkout blocks are priced for 
 
 A feature is considered done when it meets the following criteria:
 1. **Functional:** The `orders/create` webhook correctly identifies a stacked order and places it on native fulfillment hold via the Admin API.
-2. **Quality Assurance:** All scenarios in [TESTING_SCENARIOS.md](file:///Users/e8genius/Documents/Apps/payme%20task/poc/docs/TESTING_SCENARIOS.md) are verified and pass without regressions.
+2. **Quality Assurance:** All scenarios in [TESTING_SCENARIOS.md](file:///Users/e8genius/Documents/Apps/payme%20task/cartsafe%20poc%20product/docs/TESTING_SCENARIOS.md) are verified and pass without regressions.
 3. **Compliance:** The system database schema stores no customer emails, names, or unmasked gift cards, aligning with `SECURITY.md` guidelines.
 4. **Documented:** Code structure, environment configurations, and deployment steps are updated in the master README, STACK, and DEPLOY docs.
