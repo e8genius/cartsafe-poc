@@ -2,13 +2,13 @@
 
 CartSafe is a native Shopify application designed to protect merchant margins from double-discounting exploits (specifically stacking promotional coupon codes with gift cards) without requiring a Shopify Plus plan or breaking native tracking with draft orders.
 
-This repository encompasses the complete product lifecycle—from initial market research and opportunity identification to the technical Proof-of-Concept (POC) of CartSafe and a storefront simulator.
+This repository encompasses the product development and market research lifecycle—from initial market research and opportunity identification to the technical Proof-of-Concept (POC) of the CartSafe Shopify App.
 
 ---
 
 ## 📁 Repository Structure
 
-The project is structured into three main components:
+The project is structured into two main components in this repository:
 
 ### 1. Market Research & Problem Analysis (`/analyzer`)
 This phase involved analyzing a large dataset of WhatsApp chats from Israeli e-commerce merchants to identify their most pressing pain points. 
@@ -17,10 +17,11 @@ This phase involved analyzing a large dataset of WhatsApp chats from Israeli e-c
 
 ### 2. Product Development (`/cartsafe poc product`)
 Based on the RICE matrix, the decision was made to build **CartSafe**. This directory contains the actual product codebase (a Shopify App) and detailed documentation.
-- **Key Documents:** `docs/PRD.md`, `docs/PR_FAQ.md`, `docs/ARCHITECTURE.md`, `docs/API_FLOWS.md`, `docs/DATA_MODEL.md`.
+- **Key Documents:** [PRD.md](docs/PRD.md), [PR_FAQ.md](docs/PR_FAQ.md), [ARCHITECTURE.md](docs/ARCHITECTURE.md), [API_FLOWS.md](docs/API_FLOWS.md), [DATA_MODEL.md](docs/DATA_MODEL.md).
 
-### 3. Product Simulator (`/cartsafe poc simulator`)
-A separate Next.js application simulating the e-commerce storefront checkout environment to test and demonstrate the functionality of CartSafe without needing a live, full Shopify store setup.
+### 3. Product Simulator (Separate Repository)
+To test and demonstrate CartSafe, a storefront simulator is hosted in a separate public repository:
+- **Repository:** [cartsafe-simulator](https://github.com/e8genius/cartsafe-simulator)
 
 ---
 
@@ -40,7 +41,7 @@ CartSafe uses a three-stage native architecture:
 - **ORM & Database:** Prisma ORM connecting to a managed Supabase PostgreSQL instance.
 - **Hosting:** Vercel (for Remix/Node serverless backend) and Shopify CDN (for extensions).
 
-For detailed stack configuration, see [STACK.md](cartsafe%20poc%20product/docs/STACK.md).
+For detailed stack configuration, see [STACK.md](docs/STACK.md).
 
 ---
 
@@ -78,7 +79,7 @@ SUPABASE_URL=https://your-supabase-project.supabase.co
 SUPABASE_ANON_KEY=your_supabase_anon_key
 SCOPES=write_orders,read_orders
 ```
-For detailed environment variables setup and deployment guides, see [DEPLOY_AND_ENV.md](cartsafe%20poc%20product/docs/DEPLOY_AND_ENV.md).
+For detailed environment variables setup and deployment guides, see [DEPLOY_AND_ENV.md](docs/DEPLOY_AND_ENV.md).
 
 ### 3. Database Migrations
 Initialize your database schema using Prisma:
@@ -98,12 +99,12 @@ npm run dev
 
 ## 📚 Detailed Documentation
 
-All detailed project documents are located under the `cartsafe poc product/docs/` folder:
-- **Product positioning & FAQs:** [PR_FAQ.md](cartsafe%20poc%20product/docs/PR_FAQ.md)
-- **Product Requirements (PRD):** [PRD.md](cartsafe%20poc%20product/docs/PRD.md)
-- **Technical Architecture:** [ARCHITECTURE.md](cartsafe%20poc%20product/docs/ARCHITECTURE.md)
-- **API & GraphQL Schema:** [API_FLOWS.md](cartsafe%20poc%20product/docs/API_FLOWS.md)
-- **Database Schema & Metafields:** [DATA_MODEL.md](cartsafe%20poc%20product/docs/DATA_MODEL.md)
-- **Security & Privacy:** [SECURITY.md](cartsafe%20poc%20product/docs/SECURITY.md)
-- **Testing Scenarios:** [TESTING_SCENARIOS.md](cartsafe%20poc%20product/docs/TESTING_SCENARIOS.md)
-- **Developer Roadmap:** [ROADMAP.md](cartsafe%20poc%20product/docs/ROADMAP.md)
+All detailed project documents are located under the root `docs/` folder:
+- **Product positioning & FAQs:** [PR_FAQ.md](docs/PR_FAQ.md)
+- **Product Requirements (PRD):** [PRD.md](docs/PRD.md)
+- **Technical Architecture:** [ARCHITECTURE.md](docs/ARCHITECTURE.md)
+- **API & GraphQL Schema:** [API_FLOWS.md](docs/API_FLOWS.md)
+- **Database Schema & Metafields:** [DATA_MODEL.md](docs/DATA_MODEL.md)
+- **Security & Privacy:** [SECURITY.md](docs/SECURITY.md)
+- **Testing Scenarios:** [TESTING_SCENARIOS.md](docs/TESTING_SCENARIOS.md)
+- **Developer Roadmap:** [ROADMAP.md](docs/ROADMAP.md)

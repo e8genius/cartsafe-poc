@@ -123,17 +123,18 @@ when deciding whether to keep paying for the app.
 
 **Title:** Where to find the work
 
-**GitHub repository (public)**
-- Full codebase, docs, and research: https://github.com/e8genius/cartsafe-poc
+**GitHub repositories (public)**
+- Product App & Analysis: https://github.com/e8genius/cartsafe-poc
+- Storefront Simulator: https://github.com/e8genius/cartsafe-simulator
 
-**What's in the repo:**
+**What's in this repo:**
 - `/analyzer` — Python pipeline that parsed the WhatsApp chat, scored pain points, and produced the RICE matrix
 - `/cartsafe poc product` — Shopify App (Remix + Node.js + Prisma), with full PRD, architecture docs, and API flows
-- `/cartsafe poc simulator` — standalone Next.js storefront that demos the stacking scenario without a live Shopify store
 
-**How to run the simulator locally:**
+**How to run the simulator locally (from its separate repo):**
 ```bash
-cd "cartsafe poc simulator"
+git clone https://github.com/e8genius/cartsafe-simulator.git
+cd cartsafe-simulator
 npm install
 npm run dev
 # opens at http://localhost:3000
