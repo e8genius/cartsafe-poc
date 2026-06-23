@@ -4,8 +4,16 @@ This document outlines the detailed step-by-step test scenarios to verify the co
 
 ---
 
+## 🌐 Testing Environments
+
+- **Shopify Development Store:** [cartsafe-test-store.myshopify.com](https://cartsafe-test-store.myshopify.com)
+- **Storefront Checkout Simulator (Online):** [https://cartsafe-simulator.vercel.app/](https://cartsafe-simulator.vercel.app/)
+- **Core Product App on Vercel:** [https://cartsafe-poc.vercel.app/](https://cartsafe-poc.vercel.app/)
+
+---
+
 ## Setup Requirements for Testing
-1. A active Shopify Development Store.
+1. A active Shopify Development Store (provided above).
 2. A test product priced at 100 ₪.
 3. An active promotional discount code (e.g., `PROMO10` for 10% off).
 4. A generated gift card containing 50 ₪ (e.g., `GIFT50`).

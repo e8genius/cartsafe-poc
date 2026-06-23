@@ -4,6 +4,14 @@ This document outlines the software components, database engines, language runti
 
 ---
 
+## 🌐 Live Deployments
+
+- **Product App (Vercel):** [https://cartsafe-poc.vercel.app/](https://cartsafe-poc.vercel.app/)
+- **Storefront Simulator (Vercel):** [https://cartsafe-simulator.vercel.app/](https://cartsafe-simulator.vercel.app/)
+- **Shopify Development Store:** [cartsafe-test-store.myshopify.com](https://cartsafe-test-store.myshopify.com)
+
+---
+
 ## 1. Core Technology Stack
 
 | Component | Technology | Version | Purpose |
